@@ -1,0 +1,1 @@
+link to /home/dyn/.local/share/kicad/
