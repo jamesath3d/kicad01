@@ -1,6 +1,9 @@
 
 all:
 
+m:
+	vim Makefile
+
 gs:
 	git status
 gd:
@@ -8,3 +11,5 @@ gd:
 gc:
 	git commit
 
+up:
+	git push -u origin main
