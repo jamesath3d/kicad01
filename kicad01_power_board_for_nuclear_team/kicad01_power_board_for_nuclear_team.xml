@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\tmp\kicad01_power_board_for_nuclear_team\kicad01_power_board_for_nuclear_team.kicad_sch</source>
+    <date>2/17/2022 2:41:15 PM</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Necleco Power Board</title>
+        <company>H3D Inc.</company>
+        <rev>v1.0.1</rev>
+        <date>2022-02-17</date>
+        <source>kicad01_power_board_for_nuclear_team.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/002_input28to22v/" tstamps="/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>002_input28to22v.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>003_dcdc_18v.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>004_dcdc_18v.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>c0805_35v10u</value>
+      <footprint>02_dyn_pcblib:C0805mix0603</footprint>
+      <fields>
+        <field name="PartNum">C2012X5R1V106M085AC</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0805_35v10u" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C2012X5R1V106M085AC"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>2e12e34d-77f4-44c0-80e5-39e509f0aa9d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>c0603_100v10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="PartNum">C1608X7R2A103M080AA</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C1608X7R2A103M080AA"/>
+      <property name="PartDesc" value="10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>b35336f8-4f67-4a97-82ee-2b6bc77e03b9</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>c0603_50v1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">C1608X5R1H105K080AB</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_50v1u" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C1608X5R1H105K080AB"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>eb328028-d960-4de7-8f0c-5ca58c5d46df</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>c0603_50v0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">CGA3E2X7R1H104M080AA</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_50v0.1u" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="CGA3E2X7R1H104M080AA"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>493425ad-b804-4107-a0b9-5667e9af7159</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>c0603_100v10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="PartNum">C1608X7R2A103M080AA</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C1608X7R2A103M080AA"/>
+      <property name="PartDesc" value="10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>c4d4a973-d420-4cc4-a4bf-03fc6742b8f5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>c0603_10v3.3u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">C1608X7S1A335K080AC</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_10v3.3u" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C1608X7S1A335K080AC"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>4721249d-0141-4965-8d3d-6a43ae8c5e74</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED0603_red</value>
+      <footprint>02_dyn_pcblib:LED0603</footprint>
+      <fields>
+        <field name="PartDesc">Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="PartNum">LTST-C190KRKT</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="LED0603_red" description="Light emitting diode, small symbol"/>
+      <property name="PartNum" value="LTST-C190KRKT"/>
+      <property name="PartDesc" value="Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>0483b187-ddd0-4168-a12e-b32f44c6ec0a</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>L3.3uH_7.4x6.6mm_30mhO_9.5A</value>
+      <footprint>02_dyn_pcblib:L7.1x6.6mm</footprint>
+      <fields>
+        <field name="PartDesc">3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard</field>
+        <field name="PartNum">ECS-MPIL0630-3R3MC</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="L3.3uH_7.4x6.6mm_30mhO_9.5A" description="Inductor, small symbol"/>
+      <property name="PartNum" value="ECS-MPIL0630-3R3MC"/>
+      <property name="PartDesc" value="3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>8a103c71-1460-46f2-9d57-40d9082d7bb7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R0603_100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED104V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>96f70206-3f5d-481e-8cd5-cc7afeb026bf</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R0603_100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED104V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>42bd79e5-6538-466e-af20-b044e1130f7a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>1f6ec05a-2083-4a34-b27d-3e0d5a6d1640</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R0603_49.9k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED4992V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_49.9k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED4992V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>7c161816-a390-4bd4-b8d9-b667f18cd0c9</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>12f3d1fd-0905-4b12-9c21-047b0ae87e50</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R0603_100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED104V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>2a7de781-76b0-43a8-8e72-efd30b1a0a82</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>67fca14c-9f60-41f8-9215-da8466438868</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R0603_DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Notice">This DNP resistor use handly footprint, which is larger than the normal standard footprint</field>
+        <field name="PartNum">R0603_DNP</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_DNP" description="Resistor, US symbol"/>
+      <property name="PartNum" value="R0603_DNP"/>
+      <property name="Notice" value="This DNP resistor use handly footprint, which is larger than the normal standard footprint"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>b57e5cd7-9c42-4f41-be52-98d4927f2bab</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>b1a5a15c-568d-4609-9241-872d074a0985</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R1206_0.0</value>
+      <footprint>02_dyn_pcblib:R1206mix0603</footprint>
+      <fields>
+        <field name="PartDesc">0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film</field>
+        <field name="PartNum">RC1206FR-070RL</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R1206_0.0" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC1206FR-070RL"/>
+      <property name="PartDesc" value="0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>29c3bc2d-6589-4db2-b76c-b9c0af5ca786</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>24ab2dd5-a1da-440c-bea9-4698de29b495</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R0603_100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED104V"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>0a168e4b-0521-4f33-9d56-36ffabcc356d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>dcdc_lt8612x</value>
+      <footprint>02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</footprint>
+      <fields>
+        <field name="Mfg">Analog Devices Inc.</field>
+        <field name="MfgNum">LT8612EUDE#PBF</field>
+        <field name="PartDesc">IC REG BUCK ADJUSTABLE 6A 28QFN</field>
+        <field name="PartNum">505-LT8612EUDE#PBF-ND</field>
+        <field name="source">digikey</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="dcdc_lt8612x" description=""/>
+      <property name="source" value="digikey"/>
+      <property name="PartNum" value="505-LT8612EUDE#PBF-ND"/>
+      <property name="PartDesc" value="IC REG BUCK ADJUSTABLE 6A 28QFN"/>
+      <property name="Mfg" value="Analog Devices Inc."/>
+      <property name="MfgNum" value="LT8612EUDE#PBF"/>
+      <property name="Sheetname" value="003_dcdc_18v"/>
+      <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/003_dcdc_18v/" tstamps="/33ebb98f-f4da-4914-93f0-b7e26b266f90/"/>
+      <tstamps>5beb5dee-5cbb-487b-af7b-95fee386f7fa</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>c0805_35v10u</value>
+      <footprint>02_dyn_pcblib:C0805mix0603</footprint>
+      <fields>
+        <field name="PartNum">C2012X5R1V106M085AC</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0805_35v10u" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C2012X5R1V106M085AC"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>365c46ec-b81a-42a9-8aa4-48c393b682ad</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>c0603_100v10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="PartNum">C1608X7R2A103M080AA</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C1608X7R2A103M080AA"/>
+      <property name="PartDesc" value="10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>66811b2b-b406-44c9-8db0-f34396c8f563</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>c0603_50v1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">C1608X5R1H105K080AB</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_50v1u" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C1608X5R1H105K080AB"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>0312b1e8-91ee-482c-a0c5-522cd2bcc5c9</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>c0603_50v0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">CGA3E2X7R1H104M080AA</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_50v0.1u" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="CGA3E2X7R1H104M080AA"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>e3373e52-2d3a-4d13-a750-867613db4019</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>c0603_100v10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="PartNum">C1608X7R2A103M080AA</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C1608X7R2A103M080AA"/>
+      <property name="PartDesc" value="10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>bbea0aac-0486-4f5a-8659-a4bf5161ccb7</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>c0603_10v3.3u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">C1608X7S1A335K080AC</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="c0603_10v3.3u" description="Capacitor symbol for simulation only"/>
+      <property name="PartNum" value="C1608X7S1A335K080AC"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>153754c1-3d65-42fe-ab03-f077f49e4363</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED0603_red</value>
+      <footprint>02_dyn_pcblib:LED0603</footprint>
+      <fields>
+        <field name="PartDesc">Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="PartNum">LTST-C190KRKT</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="LED0603_red" description="Light emitting diode, small symbol"/>
+      <property name="PartNum" value="LTST-C190KRKT"/>
+      <property name="PartDesc" value="Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>9a5cf478-7978-42dd-b252-997760144bc8</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>L3.3uH_7.4x6.6mm_30mhO_9.5A</value>
+      <footprint>02_dyn_pcblib:L7.1x6.6mm</footprint>
+      <fields>
+        <field name="PartDesc">3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard</field>
+        <field name="PartNum">ECS-MPIL0630-3R3MC</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="L3.3uH_7.4x6.6mm_30mhO_9.5A" description="Inductor, small symbol"/>
+      <property name="PartNum" value="ECS-MPIL0630-3R3MC"/>
+      <property name="PartDesc" value="3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>c7359c5f-c8eb-4f60-9cbd-c185ecaca9cf</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>R0603_100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED104V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>6163b631-b159-47b8-b51e-80be2eb24c7b</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>R0603_100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED104V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>214e9639-d089-4815-8b36-f2bdde9347b1</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>bacbc1d4-d4e3-4aed-be31-f3555d458b1c</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>R0603_49.9k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED4992V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_49.9k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED4992V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>593d5ed9-a76b-4a92-bf25-23e1fee07add</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>5162bca9-c348-4ff8-97b2-8bf9d3b18cf9</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>R0603_100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED104V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>4444d97b-1612-4221-80eb-5b8d23d81bfd</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>1fa48ee8-c347-4563-983f-4a5214ce9aac</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>R0603_DNP</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Notice">This DNP resistor use handly footprint, which is larger than the normal standard footprint</field>
+        <field name="PartNum">R0603_DNP</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_DNP" description="Resistor, US symbol"/>
+      <property name="PartNum" value="R0603_DNP"/>
+      <property name="Notice" value="This DNP resistor use handly footprint, which is larger than the normal standard footprint"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>c5907ed1-57b5-4c9b-8054-2b393099caa8</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>872719f4-ab1b-4f02-b22a-9a9a16e35cba</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>R1206_0.0</value>
+      <footprint>02_dyn_pcblib:R1206mix0603</footprint>
+      <fields>
+        <field name="PartDesc">0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film</field>
+        <field name="PartNum">RC1206FR-070RL</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R1206_0.0" description="Resistor, US symbol"/>
+      <property name="PartNum" value="RC1206FR-070RL"/>
+      <property name="PartDesc" value="0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>41f0bffc-0826-4d7f-a054-09fd403c6555</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>R0603_10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERJ-PA3F1002V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>8ae6dbfd-974c-48ae-a347-f349ac2d34f9</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>R0603_100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <property name="PartNum" value="ERA-3AED104V"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>c8ae04af-3029-486b-a5e4-244b3d89a6f5</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>dcdc_lt8612x</value>
+      <footprint>02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</footprint>
+      <fields>
+        <field name="Mfg">Analog Devices Inc.</field>
+        <field name="MfgNum">LT8612EUDE#PBF</field>
+        <field name="PartDesc">IC REG BUCK ADJUSTABLE 6A 28QFN</field>
+        <field name="PartNum">505-LT8612EUDE#PBF-ND</field>
+        <field name="source">digikey</field>
+      </fields>
+      <libsource lib="01dyn_lib" part="dcdc_lt8612x" description=""/>
+      <property name="source" value="digikey"/>
+      <property name="PartNum" value="505-LT8612EUDE#PBF-ND"/>
+      <property name="PartDesc" value="IC REG BUCK ADJUSTABLE 6A 28QFN"/>
+      <property name="Mfg" value="Analog Devices Inc."/>
+      <property name="MfgNum" value="LT8612EUDE#PBF"/>
+      <property name="Sheetname" value="004_dcdc_18v"/>
+      <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
+      <sheetpath names="/004_dcdc_18v/" tstamps="/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/"/>
+      <tstamps>64e866cf-d647-4f95-9987-631bb92ebbab</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="01dyn_lib" part="L3.3uH_7.4x6.6mm_30mhO_9.5A">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L3.3uH_7.4x6.6mm_30mhO_9.5A</field>
+        <field name="Footprint">02_dyn_pcblib:L7.1x6.6mm</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">ECS-MPIL0630-3R3MC</field>
+        <field name="PartDesc">3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="LED0603_red">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED0603_red</field>
+        <field name="Footprint">02_dyn_pcblib:LED0603</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">LTST-C190KRKT</field>
+        <field name="PartDesc">Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="R0603_100k">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R0603_100k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">ERA-3AED104V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="R0603_10k">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R0603_10k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">ERJ-PA3F1002V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="R0603_49.9k">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R0603_49.9k</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">ERA-3AED4992V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="R0603_DNP">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R0603_DNP</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">R0603_DNP</field>
+        <field name="Notice">This DNP resistor use handly footprint, which is larger than the normal standard footprint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="R1206_0.0">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R1206_0.0</field>
+        <field name="Footprint">02_dyn_pcblib:R1206mix0603</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">RC1206FR-070RL</field>
+        <field name="PartDesc">0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="c0603_100v10n">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c0603_100v10n</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">C1608X7R2A103M080AA</field>
+        <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="c0603_10v3.3u">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c0603_10v3.3u</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">C1608X7S1A335K080AC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="c0603_50v0.1u">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c0603_50v0.1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">CGA3E2X7R1H104M080AA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="c0603_50v1u">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c0603_50v1u</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">C1608X5R1H105K080AB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="c0805_35v10u">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c0805_35v10u</field>
+        <field name="Footprint">02_dyn_pcblib:C0805mix0603</field>
+        <field name="Datasheet">~</field>
+        <field name="PartNum">C2012X5R1V106M085AC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="01dyn_lib" part="dcdc_lt8612x">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">dcdc_lt8612x</field>
+        <field name="Footprint">02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</field>
+        <field name="source">digikey</field>
+        <field name="PartNum">505-LT8612EUDE#PBF-ND</field>
+        <field name="PartDesc">IC REG BUCK ADJUSTABLE 6A 28QFN</field>
+        <field name="Mfg">Analog Devices Inc.</field>
+        <field name="MfgNum">LT8612EUDE#PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="sync" type="input"/>
+        <pin num="2" name="TR/SS" type="input"/>
+        <pin num="3" name="RT" type="input"/>
+        <pin num="4" name="EN/UV" type="input"/>
+        <pin num="5" name="VinMax42v" type="power_in"/>
+        <pin num="6" name="Vin" type="power_in"/>
+        <pin num="7" name="Vin" type="power_in"/>
+        <pin num="8" name="PGND" type="power_out"/>
+        <pin num="9" name="PGND" type="power_out"/>
+        <pin num="10" name="PGND" type="power_out"/>
+        <pin num="11" name="GND" type="power_out"/>
+        <pin num="12" name="GND" type="power_out"/>
+        <pin num="13" name="GND" type="power_out"/>
+        <pin num="14" name="GND" type="power_out"/>
+        <pin num="15" name="SW" type="power_out"/>
+        <pin num="16" name="sw" type="power_out"/>
+        <pin num="17" name="sw" type="power_out"/>
+        <pin num="18" name="sw" type="power_out"/>
+        <pin num="19" name="sw" type="power_out"/>
+        <pin num="20" name="BST" type="power_out"/>
+        <pin num="21" name="intVcc" type="power_out"/>
+        <pin num="22" name="Bias" type="input"/>
+        <pin num="23" name="PG" type="open_collector"/>
+        <pin num="24" name="FB" type="input"/>
+        <pin num="25" name="NC" type="power_out"/>
+        <pin num="26" name="NC" type="power_out"/>
+        <pin num="27" name="NC" type="power_out"/>
+        <pin num="28" name="NC" type="power_out"/>
+        <pin num="29" name="GND" type="power_out"/>
+        <pin num="30" name="GND" type="power_out"/>
+        <pin num="31" name="GND" type="power_out"/>
+        <pin num="32" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="01dyn_lib">
+      <uri>C:\tmp\kicad01_power_board_for_nuclear_team/01dyn_lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="25" pinfunction="NC" pintype="power_out"/>
+      <node ref="U1" pin="26" pinfunction="NC" pintype="power_out"/>
+      <node ref="U1" pin="27" pinfunction="NC" pintype="power_out"/>
+      <node ref="U1" pin="28" pinfunction="NC" pintype="power_out"/>
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="30" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="31" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="32" pinfunction="GND" pintype="power_out"/>
+      <node ref="U1" pin="8" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="9" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="10" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="11" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="12" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="14" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="25" pinfunction="NC" pintype="power_out"/>
+      <node ref="U2" pin="26" pinfunction="NC" pintype="power_out"/>
+      <node ref="U2" pin="27" pinfunction="NC" pintype="power_out"/>
+      <node ref="U2" pin="28" pinfunction="NC" pintype="power_out"/>
+      <node ref="U2" pin="29" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="30" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="31" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="32" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="8" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="9" pinfunction="PGND" pintype="power_out"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR/SS" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="SW" pintype="power_out"/>
+      <node ref="U1" pin="16" pinfunction="sw" pintype="power_out"/>
+      <node ref="U1" pin="17" pinfunction="sw" pintype="power_out"/>
+      <node ref="U1" pin="18" pinfunction="sw" pintype="power_out"/>
+      <node ref="U1" pin="19" pinfunction="sw" pintype="power_out"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="BST" pintype="power_out"/>
+    </net>
+    <net code="6" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="Bias" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="TR/SS" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="SW" pintype="power_out"/>
+      <node ref="U2" pin="16" pinfunction="sw" pintype="power_out"/>
+      <node ref="U2" pin="17" pinfunction="sw" pintype="power_out"/>
+      <node ref="U2" pin="18" pinfunction="sw" pintype="power_out"/>
+      <node ref="U2" pin="19" pinfunction="sw" pintype="power_out"/>
+    </net>
+    <net code="10" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="BST" pintype="power_out"/>
+    </net>
+    <net code="11" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="Bias" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="EN/UV" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="RT" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="20" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="EN/UV" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="RT" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="26" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="V18out">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="V24in">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VinMax42v" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="Vin" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="Vin" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VinMax42v" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="Vin" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="Vin" pintype="power_in"/>
+    </net>
+    <net code="29" name="VOint3">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="intVcc" pintype="power_out"/>
+      <node ref="U2" pin="21" pinfunction="intVcc" pintype="power_out"/>
+    </net>
+    <net code="30" name="Vsync3">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="sync" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="sync" pintype="input"/>
+    </net>
+  </nets>
+</export>
