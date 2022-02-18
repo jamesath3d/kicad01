@@ -1,3 +1,6 @@
 (sym_lib_table
-  (lib (name "01dyn_lib")(type "KiCad")(uri "${KIPRJMOD}/01dyn_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "1001_un")(type "KiCad")(uri "${KIPRJMOD}/1001_un.kicad_sym")(options "")(descr ""))
+  (lib (name "1002_res")(type "KiCad")(uri "${KIPRJMOD}/1002_res.kicad_sym")(options "")(descr ""))
+  (lib (name "1003_cap")(type "KiCad")(uri "${KIPRJMOD}/1003_cap.kicad_sym")(options "")(descr ""))
+  (lib (name "1004_led_mos")(type "KiCad")(uri "${KIPRJMOD}/1004_led_mos.kicad_sym")(options "")(descr ""))
 )

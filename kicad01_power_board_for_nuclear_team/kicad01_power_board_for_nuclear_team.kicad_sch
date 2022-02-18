@@ -75,6 +75,18 @@
     )
   )
 
+  (sheet (at 60.96 152.4) (size 57.15 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e6fd21c3-a897-4e3d-8035-4214e25b3e90)
+    (property "Sheet name" "008_board_and_testpoint" (id 0) (at 60.96 151.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "008_board_and_testpoint.kicad_sch" (id 1) (at 60.96 166.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 60.96 33.02) (size 57.15 11.43)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -95,56 +107,66 @@
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2" (page "5"))
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96" (page "6"))
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb" (page "7"))
+    (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90" (page "8"))
   )
 
   (symbol_instances
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/1e23f0ab-0505-445a-aa8b-5e5dcc0c8320"
-      (reference "#PWR0101") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/8a515acc-bf21-4927-8035-9905c09c5e85"
-      (reference "#PWR0102") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/8b020319-997a-450b-ad5a-b81d27dd19de"
-      (reference "#PWR0103") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/31252cd3-3968-457a-8fd9-31f8176fdb3f"
-      (reference "#PWR0104") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/c8b0c353-3ab6-40d4-b4a5-e1171a3c98a2"
-      (reference "#PWR0105") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/40226831-8c11-4592-92a8-9667727044b4"
-      (reference "#PWR0106") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/a5a9c29a-a847-4df1-b57d-9152795ea7bb"
-      (reference "#PWR0107") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/13cae2ce-8c70-44ec-98e2-55293d826169"
-      (reference "#PWR0108") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/d2b521b0-24ed-4f1b-bdd0-bf0c736c1fab"
-      (reference "#PWR0109") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/930b2a76-507f-414f-83c0-4cc6a308a25b"
-      (reference "#PWR0110") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/3357b2a6-be39-47ca-bacd-20bd8576857c"
-      (reference "#PWR0111") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/e2883844-4d70-4ef3-91f0-15dae10e3cb7"
-      (reference "#PWR0112") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/0cbe3262-4182-4841-ae3a-8194c01483ce"
-      (reference "#PWR0113") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/651e65be-2a4f-46ca-9ea8-008798662744"
-      (reference "#PWR0114") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/0499e01e-1836-4b69-acd1-c915406d6c9a"
-      (reference "#PWR0115") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/2e15d1da-6aed-4b03-b921-dcca84af0fd8"
-      (reference "#PWR0116") (unit 1) (value "GND_1") (footprint "")
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/ae5d0f24-2a0b-4597-979d-4c8cf6542eb1"
+      (reference "B801") (unit 1) (value "nucleco_power_board_v101") (footprint "02_dyn_pcblib:nucleco_power_board_v101")
+    )
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/e67870a1-24ab-4d3e-bc27-24abebb5ef4f"
+      (reference "C201") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+    )
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/2fa25892-9f70-4a33-be02-2fabd8a41e9f"
+      (reference "C211") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/2e12e34d-77f4-44c0-80e5-39e509f0aa9d"
       (reference "C321") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
@@ -200,6 +222,15 @@
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/2a52fe0f-1f5e-44ff-926f-f1687692354f"
       (reference "C571") (unit 1) (value "c0603_10v3.3u") (footprint "02_dyn_pcblib:C0603")
     )
+    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/b110606c-b9a3-48ff-a9de-a7bf54e1cd9d"
+      (reference "C701") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+    )
+    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/5ce7bec6-3f5d-4594-ba22-c9392bf564ed"
+      (reference "C711") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+    )
+    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/a9ff4d63-2815-426f-a0f3-9e0d38a22509"
+      (reference "C721") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+    )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/0483b187-ddd0-4168-a12e-b32f44c6ec0a"
       (reference "D351") (unit 1) (value "LED0603_red") (footprint "02_dyn_pcblib:LED0603")
     )
@@ -208,6 +239,21 @@
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/c874578b-2490-45cd-80e7-29a2a605ea31"
       (reference "D551") (unit 1) (value "LED0603_red") (footprint "02_dyn_pcblib:LED0603")
+    )
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/81113288-48cc-4c3e-bcd7-bb9c0e788e09"
+      (reference "H201") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+    )
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/48d75954-db6a-4a63-b719-8d93261afde0"
+      (reference "H211") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+    )
+    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/5494557b-12cd-42ac-9376-f848681d29c6"
+      (reference "H701") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+    )
+    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/3cc7970e-8072-4d39-9c35-6f40cbca673b"
+      (reference "H711") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+    )
+    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/64f168e6-c671-408e-8d84-82a077e30921"
+      (reference "H721") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/8a103c71-1460-46f2-9d57-40d9082d7bb7"
       (reference "L371") (unit 1) (value "L3.3uH_7.4x6.6mm_30mhO_9.5A") (footprint "02_dyn_pcblib:L7.1x6.6mm")
@@ -218,11 +264,20 @@
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/78c46949-b95e-4193-ba84-cfef37593d7b"
       (reference "L571") (unit 1) (value "L3.3uH_7.4x6.6mm_30mhO_9.5A") (footprint "02_dyn_pcblib:L7.1x6.6mm")
     )
-    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/20e768a0-9e2a-4bc3-a1f2-86a0a9325aa7"
-      (reference "R201") (unit 1) (value "R1206_0.0") (footprint "02_dyn_pcblib:R1206mix0603")
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/9f81b282-4ca4-4f68-9485-900324b9a462"
+      (reference "PTC201") (unit 1) (value "PTC_fuse_7A") (footprint "02_dyn_pcblib:ptc_fuse_2920")
     )
-    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/424051b6-b384-4fec-8bf0-9b758e398d6c"
-      (reference "R224") (unit 1) (value "R0603_1M") (footprint "02_dyn_pcblib:C0603")
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/842eee71-b71d-494f-9e99-cb7f7a45087d"
+      (reference "Q251") (unit 1) (value "nmos75v80a_IRFS3607TRLPBF") (footprint "02_dyn_pcblib:d2pak_TO263")
+    )
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/1900477b-53f2-4cca-acff-2cb2c4a5d9cf"
+      (reference "R211") (unit 1) (value "R1206_0.0") (footprint "02_dyn_pcblib:R1206mix0603")
+    )
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/214744e6-b7fa-4720-90f8-e72f6c007777"
+      (reference "R221") (unit 1) (value "R0603_1M") (footprint "02_dyn_pcblib:C0603")
+    )
+    (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/24b9fb9c-4615-4881-b6c6-9a2668c09472"
+      (reference "R222") (unit 1) (value "R0603_1M") (footprint "02_dyn_pcblib:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/96f70206-3f5d-481e-8cd5-cc7afeb026bf"
       (reference "R311") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
@@ -349,15 +404,6 @@
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/f65b5f4f-6081-4021-b991-c74c184ee73f"
       (reference "R634") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
-    )
-    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/b45cd492-82eb-4b37-b72a-6d172e33f90c"
-      (reference "R705") (unit 1) (value "R0603_1M") (footprint "02_dyn_pcblib:C0603")
-    )
-    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/2336af01-09a1-49ed-af23-6e39f69cc4ca"
-      (reference "R718") (unit 1) (value "R0603_1M") (footprint "02_dyn_pcblib:C0603")
-    )
-    (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/d2e947ea-f31a-4693-8b02-6d3ae95472c8"
-      (reference "R724") (unit 1) (value "R0603_1M") (footprint "02_dyn_pcblib:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/5beb5dee-5cbb-487b-af7b-95fee386f7fa"
       (reference "U301") (unit 1) (value "dcdc_lt8612x") (footprint "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")

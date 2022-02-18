@@ -438,6 +438,10 @@
     [
       "5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb",
       "007_output_socket"
+    ],
+    [
+      "e6fd21c3-a897-4e3d-8035-4214e25b3e90",
+      "008_board_and_testpoint"
     ]
   ],
   "text_variables": {}

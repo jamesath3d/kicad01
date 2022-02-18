@@ -1,4 +1,4 @@
-16451609236897
+23032790596558
 02_dyn_pcblib
 C0603
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -66,6 +66,34 @@ resistor
 R1206mix0603
 Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
+0
+2
+2
+02_dyn_pcblib
+d2pak_TO263
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+7
+3
+02_dyn_pcblib
+hdr_2x1_1-1123723-2
+HDR connector 2x1
+HDR connector 2x1
+0
+2
+2
+02_dyn_pcblib
+nucleco_power_board_v101
+H3D Nucleco Board
+H3D Nucleco Board
+0
+0
+0
+02_dyn_pcblib
+ptc_fuse_2920
+Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator
+fuse
 0
 2
 2

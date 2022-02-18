@@ -84,7 +84,7 @@
       <fields>
         <field name="PartNum">C2012X5R1V106M085AC</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0805_35v10u" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0805_35v10u" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C2012X5R1V106M085AC"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -98,7 +98,7 @@
         <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
         <field name="PartNum">C1608X7R2A103M080AA</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C1608X7R2A103M080AA"/>
       <property name="PartDesc" value="10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
@@ -112,7 +112,7 @@
       <fields>
         <field name="PartNum">C1608X5R1H105K080AB</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_50v1u" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_50v1u" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C1608X5R1H105K080AB"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -125,7 +125,7 @@
       <fields>
         <field name="PartNum">CGA3E2X7R1H104M080AA</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_50v0.1u" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_50v0.1u" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="CGA3E2X7R1H104M080AA"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -139,7 +139,7 @@
         <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
         <field name="PartNum">C1608X7R2A103M080AA</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C1608X7R2A103M080AA"/>
       <property name="PartDesc" value="10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
@@ -153,7 +153,7 @@
       <fields>
         <field name="PartNum">C1608X7S1A335K080AC</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_10v3.3u" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_10v3.3u" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C1608X7S1A335K080AC"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -167,7 +167,7 @@
         <field name="PartDesc">Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
         <field name="PartNum">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="01dyn_lib" part="LED0603_red" description="Light emitting diode, small symbol"/>
+      <libsource lib="1001_un" part="LED0603_red" description="Light emitting diode, small symbol"/>
       <property name="PartNum" value="LTST-C190KRKT"/>
       <property name="PartDesc" value="Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
@@ -182,7 +182,7 @@
         <field name="PartDesc">3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard</field>
         <field name="PartNum">ECS-MPIL0630-3R3MC</field>
       </fields>
-      <libsource lib="01dyn_lib" part="L3.3uH_7.4x6.6mm_30mhO_9.5A" description="Inductor, small symbol"/>
+      <libsource lib="1001_un" part="L3.3uH_7.4x6.6mm_30mhO_9.5A" description="Inductor, small symbol"/>
       <property name="PartNum" value="ECS-MPIL0630-3R3MC"/>
       <property name="PartDesc" value="3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
@@ -196,7 +196,7 @@
       <fields>
         <field name="PartNum">ERA-3AED104V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_100k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED104V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -209,7 +209,7 @@
       <fields>
         <field name="PartNum">ERA-3AED104V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_100k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED104V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -222,7 +222,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -235,7 +235,7 @@
       <fields>
         <field name="PartNum">ERA-3AED4992V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_49.9k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_49.9k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED4992V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -248,7 +248,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -261,7 +261,7 @@
       <fields>
         <field name="PartNum">ERA-3AED104V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_100k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED104V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -274,7 +274,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -288,7 +288,7 @@
         <field name="Notice">This DNP resistor use handly footprint, which is larger than the normal standard footprint</field>
         <field name="PartNum">R0603_DNP</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_DNP" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_DNP" description="Resistor, US symbol"/>
       <property name="PartNum" value="R0603_DNP"/>
       <property name="Notice" value="This DNP resistor use handly footprint, which is larger than the normal standard footprint"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
@@ -302,7 +302,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -316,7 +316,7 @@
         <field name="PartDesc">0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film</field>
         <field name="PartNum">RC1206FR-070RL</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R1206_0.0" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R1206_0.0" description="Resistor, US symbol"/>
       <property name="PartNum" value="RC1206FR-070RL"/>
       <property name="PartDesc" value="0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
@@ -330,7 +330,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -343,7 +343,7 @@
       <fields>
         <field name="PartNum">ERA-3AED104V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_100k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED104V"/>
       <property name="Sheetname" value="003_dcdc_18v"/>
       <property name="Sheetfile" value="003_dcdc_18v.kicad_sch"/>
@@ -360,7 +360,7 @@
         <field name="PartNum">505-LT8612EUDE#PBF-ND</field>
         <field name="source">digikey</field>
       </fields>
-      <libsource lib="01dyn_lib" part="dcdc_lt8612x" description=""/>
+      <libsource lib="1001_un" part="dcdc_lt8612x" description=""/>
       <property name="source" value="digikey"/>
       <property name="PartNum" value="505-LT8612EUDE#PBF-ND"/>
       <property name="PartDesc" value="IC REG BUCK ADJUSTABLE 6A 28QFN"/>
@@ -377,7 +377,7 @@
       <fields>
         <field name="PartNum">C2012X5R1V106M085AC</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0805_35v10u" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0805_35v10u" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C2012X5R1V106M085AC"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -391,7 +391,7 @@
         <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
         <field name="PartNum">C1608X7R2A103M080AA</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C1608X7R2A103M080AA"/>
       <property name="PartDesc" value="10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
@@ -405,7 +405,7 @@
       <fields>
         <field name="PartNum">C1608X5R1H105K080AB</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_50v1u" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_50v1u" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C1608X5R1H105K080AB"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -418,7 +418,7 @@
       <fields>
         <field name="PartNum">CGA3E2X7R1H104M080AA</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_50v0.1u" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_50v0.1u" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="CGA3E2X7R1H104M080AA"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -432,7 +432,7 @@
         <field name="PartDesc">10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
         <field name="PartNum">C1608X7R2A103M080AA</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_100v10n" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C1608X7R2A103M080AA"/>
       <property name="PartDesc" value="10000 pF ±20% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
@@ -446,7 +446,7 @@
       <fields>
         <field name="PartNum">C1608X7S1A335K080AC</field>
       </fields>
-      <libsource lib="01dyn_lib" part="c0603_10v3.3u" description="Capacitor symbol for simulation only"/>
+      <libsource lib="1001_un" part="c0603_10v3.3u" description="Capacitor symbol for simulation only"/>
       <property name="PartNum" value="C1608X7S1A335K080AC"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -460,7 +460,7 @@
         <field name="PartDesc">Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
         <field name="PartNum">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="01dyn_lib" part="LED0603_red" description="Light emitting diode, small symbol"/>
+      <libsource lib="1001_un" part="LED0603_red" description="Light emitting diode, small symbol"/>
       <property name="PartNum" value="LTST-C190KRKT"/>
       <property name="PartDesc" value="Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
@@ -475,7 +475,7 @@
         <field name="PartDesc">3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard</field>
         <field name="PartNum">ECS-MPIL0630-3R3MC</field>
       </fields>
-      <libsource lib="01dyn_lib" part="L3.3uH_7.4x6.6mm_30mhO_9.5A" description="Inductor, small symbol"/>
+      <libsource lib="1001_un" part="L3.3uH_7.4x6.6mm_30mhO_9.5A" description="Inductor, small symbol"/>
       <property name="PartNum" value="ECS-MPIL0630-3R3MC"/>
       <property name="PartDesc" value="3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
@@ -489,7 +489,7 @@
       <fields>
         <field name="PartNum">ERA-3AED104V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_100k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED104V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -502,7 +502,7 @@
       <fields>
         <field name="PartNum">ERA-3AED104V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_100k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED104V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -515,7 +515,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -528,7 +528,7 @@
       <fields>
         <field name="PartNum">ERA-3AED4992V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_49.9k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_49.9k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED4992V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -541,7 +541,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -554,7 +554,7 @@
       <fields>
         <field name="PartNum">ERA-3AED104V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_100k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED104V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -567,7 +567,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -581,7 +581,7 @@
         <field name="Notice">This DNP resistor use handly footprint, which is larger than the normal standard footprint</field>
         <field name="PartNum">R0603_DNP</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_DNP" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_DNP" description="Resistor, US symbol"/>
       <property name="PartNum" value="R0603_DNP"/>
       <property name="Notice" value="This DNP resistor use handly footprint, which is larger than the normal standard footprint"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
@@ -595,7 +595,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -609,7 +609,7 @@
         <field name="PartDesc">0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film</field>
         <field name="PartNum">RC1206FR-070RL</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R1206_0.0" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R1206_0.0" description="Resistor, US symbol"/>
       <property name="PartNum" value="RC1206FR-070RL"/>
       <property name="PartDesc" value="0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
@@ -623,7 +623,7 @@
       <fields>
         <field name="PartNum">ERJ-PA3F1002V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_10k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_10k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERJ-PA3F1002V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -636,7 +636,7 @@
       <fields>
         <field name="PartNum">ERA-3AED104V</field>
       </fields>
-      <libsource lib="01dyn_lib" part="R0603_100k" description="Resistor, US symbol"/>
+      <libsource lib="1001_un" part="R0603_100k" description="Resistor, US symbol"/>
       <property name="PartNum" value="ERA-3AED104V"/>
       <property name="Sheetname" value="004_dcdc_18v"/>
       <property name="Sheetfile" value="004_dcdc_18v.kicad_sch"/>
@@ -653,7 +653,7 @@
         <field name="PartNum">505-LT8612EUDE#PBF-ND</field>
         <field name="source">digikey</field>
       </fields>
-      <libsource lib="01dyn_lib" part="dcdc_lt8612x" description=""/>
+      <libsource lib="1001_un" part="dcdc_lt8612x" description=""/>
       <property name="source" value="digikey"/>
       <property name="PartNum" value="505-LT8612EUDE#PBF-ND"/>
       <property name="PartDesc" value="IC REG BUCK ADJUSTABLE 6A 28QFN"/>
@@ -666,7 +666,7 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="01dyn_lib" part="L3.3uH_7.4x6.6mm_30mhO_9.5A">
+    <libpart lib="1001_un" part="L3.3uH_7.4x6.6mm_30mhO_9.5A">
       <description>Inductor, small symbol</description>
       <docs>~</docs>
       <footprints>
@@ -688,7 +688,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="LED0603_red">
+    <libpart lib="1001_un" part="LED0603_red">
       <description>Light emitting diode, small symbol</description>
       <docs>~</docs>
       <footprints>
@@ -709,7 +709,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="R0603_100k">
+    <libpart lib="1001_un" part="R0603_100k">
       <description>Resistor, US symbol</description>
       <docs>~</docs>
       <footprints>
@@ -727,7 +727,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="R0603_10k">
+    <libpart lib="1001_un" part="R0603_10k">
       <description>Resistor, US symbol</description>
       <docs>~</docs>
       <footprints>
@@ -745,7 +745,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="R0603_49.9k">
+    <libpart lib="1001_un" part="R0603_49.9k">
       <description>Resistor, US symbol</description>
       <docs>~</docs>
       <footprints>
@@ -763,7 +763,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="R0603_DNP">
+    <libpart lib="1001_un" part="R0603_DNP">
       <description>Resistor, US symbol</description>
       <docs>~</docs>
       <footprints>
@@ -782,7 +782,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="R1206_0.0">
+    <libpart lib="1001_un" part="R1206_0.0">
       <description>Resistor, US symbol</description>
       <docs>~</docs>
       <footprints>
@@ -801,7 +801,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="c0603_100v10n">
+    <libpart lib="1001_un" part="c0603_100v10n">
       <description>Capacitor symbol for simulation only</description>
       <docs>~</docs>
       <fields>
@@ -817,7 +817,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="c0603_10v3.3u">
+    <libpart lib="1001_un" part="c0603_10v3.3u">
       <description>Capacitor symbol for simulation only</description>
       <docs>~</docs>
       <fields>
@@ -832,7 +832,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="c0603_50v0.1u">
+    <libpart lib="1001_un" part="c0603_50v0.1u">
       <description>Capacitor symbol for simulation only</description>
       <docs>~</docs>
       <fields>
@@ -847,7 +847,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="c0603_50v1u">
+    <libpart lib="1001_un" part="c0603_50v1u">
       <description>Capacitor symbol for simulation only</description>
       <docs>~</docs>
       <fields>
@@ -862,7 +862,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="c0805_35v10u">
+    <libpart lib="1001_un" part="c0805_35v10u">
       <description>Capacitor symbol for simulation only</description>
       <docs>~</docs>
       <fields>
@@ -877,7 +877,7 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="01dyn_lib" part="dcdc_lt8612x">
+    <libpart lib="1001_un" part="dcdc_lt8612x">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">dcdc_lt8612x</field>
@@ -925,8 +925,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="01dyn_lib">
-      <uri>C:\tmp\kicad01_power_board_for_nuclear_team/01dyn_lib.kicad_sym</uri>
+    <library logical="1001_un">
+      <uri>C:\tmp\kicad01_power_board_for_nuclear_team/1001_un.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
