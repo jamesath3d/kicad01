@@ -330,7 +330,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "1001_un",
+      "1002_res",
+      "1003_cap",
+      "1004_led_mos"
+    ]
   },
   "meta": {
     "filename": "kicad01_power_board_for_nuclear_team.kicad_pro",
