@@ -5,7 +5,7 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "1001_un:R0603_10k" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "1002_res:R0603_10k" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 1.905 -1.397 0)
         (effects (font (size 1.5 1.5)))
       )
@@ -92,7 +92,7 @@
         )
       )
     )
-    (symbol "1001_un:R0603_DNP" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "1002_res:R0603_DNP" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 1.905 -1.397 0)
         (effects (font (size 1.5 1.5)))
       )
@@ -182,7 +182,7 @@
         )
       )
     )
-    (symbol "1001_un:R0805_0.0" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "1002_res:R0805_0.0" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 1.905 -1.397 0)
         (effects (font (size 1.5 1.5)))
       )
@@ -355,7 +355,7 @@
     )
   )
 
-  (symbol (lib_id "1001_un:R0805_0.0") (at 73.66 54.61 0) (unit 1)
+  (symbol (lib_id "1002_res:R0805_0.0") (at 73.66 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 41d822b0-871d-4a99-8889-52b731e33566)
     (property "Reference" "R603" (id 0) (at 73.66 49.53 0)
@@ -380,7 +380,7 @@
     (pin "2" (uuid 79f75481-db4f-444c-9f8d-3ac77c62a1a1))
   )
 
-  (symbol (lib_id "1001_un:R0603_10k") (at 105.41 63.5 0) (unit 1)
+  (symbol (lib_id "1002_res:R0603_10k") (at 105.41 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 45ec2b51-7b65-40a6-a0ae-205c9df0f27d)
     (property "Reference" "R624" (id 0) (at 105.41 58.42 0)
@@ -402,7 +402,7 @@
     (pin "2" (uuid 3e5f60da-e812-49a0-81e2-29e6739a8860))
   )
 
-  (symbol (lib_id "1001_un:R0603_10k") (at 73.66 63.5 0) (unit 1)
+  (symbol (lib_id "1002_res:R0603_10k") (at 73.66 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9686fcd7-3f46-4033-ba0d-9058eba5f34f)
     (property "Reference" "R623" (id 0) (at 73.66 58.42 0)
@@ -424,7 +424,7 @@
     (pin "2" (uuid 2cc1e648-7cee-4191-abdd-3e93a97a0f9f))
   )
 
-  (symbol (lib_id "1001_un:R0603_DNP") (at 105.41 54.61 0) (unit 1)
+  (symbol (lib_id "1002_res:R0603_DNP") (at 105.41 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b153615d-e9f3-4f1c-882a-bfb6b06d57a2)
     (property "Reference" "R604" (id 0) (at 105.41 49.53 0)
@@ -449,7 +449,7 @@
     (pin "2" (uuid 9164b1f2-119d-48b7-b45c-5d7d357c4181))
   )
 
-  (symbol (lib_id "1001_un:R0603_10k") (at 73.66 72.39 0) (unit 1)
+  (symbol (lib_id "1002_res:R0603_10k") (at 73.66 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e60fb093-de16-4080-9527-b47f46db04aa)
     (property "Reference" "R633" (id 0) (at 73.66 67.31 0)
@@ -471,7 +471,7 @@
     (pin "2" (uuid 5cc5ad26-ecfd-4a19-ad0b-86318777b6fb))
   )
 
-  (symbol (lib_id "1001_un:R0603_10k") (at 105.41 72.39 0) (unit 1)
+  (symbol (lib_id "1002_res:R0603_10k") (at 105.41 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f65b5f4f-6081-4021-b991-c74c184ee73f)
     (property "Reference" "R634" (id 0) (at 105.41 67.31 0)
