@@ -368,11 +368,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "kicad01_power_board_for_nuclear_team.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "kicad01_power_board_for_nuclear_team.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
