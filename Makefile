@@ -14,4 +14,5 @@ ga:
 	git add .
 
 up:
-	git push -u origin main
+	# git push -u origin main
+	git push 

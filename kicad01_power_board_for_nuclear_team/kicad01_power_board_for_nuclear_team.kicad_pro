@@ -373,7 +373,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "kicad01_power_board_for_nuclear_team.step",
-      "vrml": ""
+      "vrml": "kicad01_power_board_for_nuclear_team.wrl"
     },
     "page_layout_descr_file": ""
   },
