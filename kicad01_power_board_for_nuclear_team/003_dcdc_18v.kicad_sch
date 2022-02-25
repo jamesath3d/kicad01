@@ -5,7 +5,7 @@
   (paper "USLetter")
 
   (lib_symbols
-    (symbol "1001_un:L3.3uH_7.4x6.6mm_30mhO_9.5A" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "1006_Inductance:L3.3uH_7.4x6.6mm_30mhO_9.5A" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (id 0) (at -1.27 1.27 0)
         (effects (font (size 1.5 1.5)) (justify left))
       )
@@ -850,7 +850,7 @@
         )
       )
     )
-    (symbol "1001_un:dcdc_lt8612x" (in_bom yes) (on_board yes)
+    (symbol "1009_ic:dcdc_lt8612x" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -2093,7 +2093,7 @@
     (pin "2" (uuid d67f2ed2-8eb8-4cdf-a8fa-660c3a60fa70))
   )
 
-  (symbol (lib_id "1001_un:dcdc_lt8612x") (at 102.87 83.82 0) (unit 1)
+  (symbol (lib_id "1009_ic:dcdc_lt8612x") (at 102.87 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5beb5dee-5cbb-487b-af7b-95fee386f7fa)
     (property "Reference" "U301" (id 0) (at 93.98 80.01 0)
@@ -2199,7 +2199,7 @@
     (pin "2" (uuid 8d53889e-d1f7-4a4e-9a67-3b1e22a6332e))
   )
 
-  (symbol (lib_id "1001_un:L3.3uH_7.4x6.6mm_30mhO_9.5A") (at 181.61 99.06 0) (unit 1)
+  (symbol (lib_id "1006_Inductance:L3.3uH_7.4x6.6mm_30mhO_9.5A") (at 181.61 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8a103c71-1460-46f2-9d57-40d9082d7bb7)
     (property "Reference" "L371" (id 0) (at 181.61 95.25 0)

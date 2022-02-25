@@ -292,7 +292,7 @@
       (reference "PTC201") (unit 1) (value "PTC_fuse_7A") (footprint "02_dyn_pcblib:ptc_fuse_2920")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/842eee71-b71d-494f-9e99-cb7f7a45087d"
-      (reference "Q251") (unit 1) (value "nmos75v80a_IRFS3607TRLPBF") (footprint "02_dyn_pcblib:d2pak_TO263")
+      (reference "Q251") (unit 1) (value "nmosTO263_75v80A") (footprint "02_dyn_pcblib:d2pak_TO263")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/1900477b-53f2-4cca-acff-2cb2c4a5d9cf"
       (reference "R211") (unit 1) (value "R1206_0.0") (footprint "02_dyn_pcblib:R1206mix0603")

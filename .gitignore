@@ -7,3 +7,5 @@ ERC.rpt
 *.bak
 output.pdf
 *.wrl
+[0-9].txt
+report.txt

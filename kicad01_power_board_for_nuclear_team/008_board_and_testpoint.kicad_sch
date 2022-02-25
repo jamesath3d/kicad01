@@ -5,7 +5,7 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "1001_un:hole2mm50_7mm40" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "1005_hole:hole2mm50_7mm40" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "H" (id 0) (at -1.016 2.54 0)
         (effects (font (size 1.5 1.5)))
       )
@@ -46,7 +46,7 @@
         )
       )
     )
-    (symbol "1001_un:nucleco_power_board_v101" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "1007_board:nucleco_power_board_v101" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "B" (id 0) (at -2.54 1.27 0)
         (effects (font (size 1.5 1.5)))
       )
@@ -189,7 +189,7 @@
     (pin "1" (uuid 81d5a8ff-e225-48ed-81c9-c641a97031bd))
   )
 
-  (symbol (lib_id "1001_un:hole2mm50_7mm40") (at 52.07 60.96 0) (unit 1)
+  (symbol (lib_id "1005_hole:hole2mm50_7mm40") (at 52.07 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6280c33e-f145-4a71-8aca-5f02da699600)
     (property "Reference" "H2" (id 0) (at 55.88 60.325 0)
@@ -213,7 +213,7 @@
     (pin "1" (uuid c35c243a-c28c-48da-8a2a-504470ca1dd3))
   )
 
-  (symbol (lib_id "1001_un:hole2mm50_7mm40") (at 52.07 69.85 0) (unit 1)
+  (symbol (lib_id "1005_hole:hole2mm50_7mm40") (at 52.07 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9647edf6-7756-4aa4-b523-8fb7d068ce6c)
     (property "Reference" "H3" (id 0) (at 55.88 69.215 0)
@@ -237,7 +237,7 @@
     (pin "1" (uuid 8db03d77-3132-4858-9407-214fbe545e45))
   )
 
-  (symbol (lib_id "1001_un:nucleco_power_board_v101") (at 49.53 36.83 0) (unit 1)
+  (symbol (lib_id "1007_board:nucleco_power_board_v101") (at 49.53 36.83 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ae5d0f24-2a0b-4597-979d-4c8cf6542eb1)
     (property "Reference" "B801" (id 0) (at 45.72 35.56 0)
@@ -260,7 +260,7 @@
     )
   )
 
-  (symbol (lib_id "1001_un:hole2mm50_7mm40") (at 52.07 50.8 0) (unit 1)
+  (symbol (lib_id "1005_hole:hole2mm50_7mm40") (at 52.07 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c177efc1-cf7e-4de9-b3e3-adcc5f48c803)
     (property "Reference" "H1" (id 0) (at 55.88 50.165 0)
@@ -284,7 +284,7 @@
     (pin "1" (uuid 80f0996d-c771-49ab-ae7e-93f59af9f144))
   )
 
-  (symbol (lib_id "1001_un:hole2mm50_7mm40") (at 52.07 80.01 0) (unit 1)
+  (symbol (lib_id "1005_hole:hole2mm50_7mm40") (at 52.07 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d88eb2f4-5cd8-4879-9bfd-7bbc41ee4d22)
     (property "Reference" "H4" (id 0) (at 55.88 79.375 0)
