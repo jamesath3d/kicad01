@@ -159,6 +159,9 @@
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/2e15d1da-6aed-4b03-b921-dcca84af0fd8"
       (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/1c544bf1-615c-40e7-a64a-00dc18e5ad13"
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/ae5d0f24-2a0b-4597-979d-4c8cf6542eb1"
       (reference "B801") (unit 1) (value "nucleco_power_board_v101") (footprint "02_dyn_pcblib:nucleco_power_board_v101")
     )
@@ -248,6 +251,18 @@
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/c874578b-2490-45cd-80e7-29a2a605ea31"
       (reference "D551") (unit 1) (value "LED0603_red") (footprint "02_dyn_pcblib:LED0603")
+    )
+    (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/c177efc1-cf7e-4de9-b3e3-adcc5f48c803"
+      (reference "H1") (unit 1) (value "hole2mm50_7mm40") (footprint "02_dyn_pcblib:hole2mm50_7mm40")
+    )
+    (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/6280c33e-f145-4a71-8aca-5f02da699600"
+      (reference "H2") (unit 1) (value "hole2mm50_7mm40") (footprint "02_dyn_pcblib:hole2mm50_7mm40")
+    )
+    (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/9647edf6-7756-4aa4-b523-8fb7d068ce6c"
+      (reference "H3") (unit 1) (value "hole2mm50_7mm40") (footprint "02_dyn_pcblib:hole2mm50_7mm40")
+    )
+    (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/d88eb2f4-5cd8-4879-9bfd-7bbc41ee4d22"
+      (reference "H4") (unit 1) (value "hole2mm50_7mm40") (footprint "02_dyn_pcblib:hole2mm50_7mm40")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/81113288-48cc-4c3e-bcd7-bb9c0e788e09"
       (reference "H201") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")

@@ -1,7 +1,7 @@
 $HEADER
 GENCAD 1.4
 USER "kicad (6.0.2)"
-DRAWING "C:\kicad\kicad01_power_board_for_nuclear_team\kicad01_power_board_for_nuclear_team.kicad_pcb"
+DRAWING "C:/kicad/kicad01_power_board_for_nuclear_team/kicad01_power_board_for_nuclear_team.kicad_pcb"
 REVISION " "
 UNITS INCH
 ORIGIN 0 0
@@ -511,19 +511,19 @@ PIN "2" PAD11 0.0305118 0 TOP 0 0
 
 SHAPE "02_dyn_pcblib:d2pak_TO263"
 INSERT SMD
-LINE -0.116142 -0.133465 -0.159449 -0.133465
-LINE -0.116142 -0.204724 -0.116142 -0.133465
-LINE -0.0570866 0.204724 -0.116142 0.204724
-LINE -0.116142 0.133465 -0.317913 0.133465
-LINE -0.116142 0.204724 -0.116142 0.133465
 LINE -0.0570866 -0.204724 -0.116142 -0.204724
-PIN "3" PAD6 -0.227362 -0.1 TOP 0 0
-PIN "2" PAD7 0.132874 0 TOP 0 0
-PIN "1" PAD6 -0.227362 0.1 TOP 0 0
-PIN "none" PAD5 0.0374016 -0.109252 TOP 0 0
-PIN "none" PAD5 0.228346 0.109252 TOP 0 0
-PIN "none" PAD5 0.0374016 0.109252 TOP 0 0
+LINE -0.116142 0.204724 -0.116142 0.133465
+LINE -0.116142 0.133465 -0.317913 0.133465
+LINE -0.0570866 0.204724 -0.116142 0.204724
+LINE -0.116142 -0.204724 -0.116142 -0.133465
+LINE -0.116142 -0.133465 -0.159449 -0.133465
 PIN "none" PAD5 0.228346 -0.109252 TOP 0 0
+PIN "none" PAD5 0.0374016 0.109252 TOP 0 0
+PIN "none" PAD5 0.228346 0.109252 TOP 0 0
+PIN "none" PAD5 0.0374016 -0.109252 TOP 0 0
+PIN "1" PAD6 -0.227362 0.1 TOP 0 0
+PIN "2" PAD7 0.132874 0 TOP 0 0
+PIN "3" PAD6 -0.227362 -0.1 TOP 0 0
 
 SHAPE "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX"
 INSERT SMD
@@ -1500,8 +1500,44 @@ $ENDCOMPONENTS
 
 $DEVICES
 
+DEVICE "DEV_02_dyn_pcblib:hdr_2x1_1-1123723-2_0"
+PART "hdr_2x1_1-1123723-2"
+PACKAGE "02_dyn_pcblib:hdr_2x1_1-1123723-2"
+
+DEVICE "DEV_02_dyn_pcblib:C0603_0"
+PART "R0603_49.9k"
+PACKAGE "02_dyn_pcblib:C0603"
+
+DEVICE "DEV_02_dyn_pcblib:C0603_1"
+PART "R0603_DNP"
+PACKAGE "02_dyn_pcblib:C0603"
+
+DEVICE "DEV_02_dyn_pcblib:R1206mix0603"
+PART "R1206_0.0"
+PACKAGE "02_dyn_pcblib:R1206mix0603"
+
+DEVICE "DEV_02_dyn_pcblib:LED0603"
+PART "LED0603_red"
+PACKAGE "02_dyn_pcblib:LED0603"
+
+DEVICE "DEV_02_dyn_pcblib:C0805mix0603_0"
+PART "c0805_35v10u"
+PACKAGE "02_dyn_pcblib:C0805mix0603"
+
+DEVICE "DEV_02_dyn_pcblib:hdr_2x1_1-1123723-2"
+PART "hdr_2x1_1-1123723-2"
+PACKAGE "02_dyn_pcblib:hdr_2x1_1-1123723-2"
+
+DEVICE "DEV_02_dyn_pcblib:L7.1x6.6mm"
+PART "L3.3uH_7.4x6.6mm_30mhO_9.5A"
+PACKAGE "02_dyn_pcblib:L7.1x6.6mm"
+
 DEVICE "DEV_02_dyn_pcblib:C0603"
 PART "c0603_10v3.3u"
+PACKAGE "02_dyn_pcblib:C0603"
+
+DEVICE "DEV_02_dyn_pcblib:C0603_2"
+PART "R0603_100k"
 PACKAGE "02_dyn_pcblib:C0603"
 
 DEVICE "DEV_02_dyn_pcblib:ptc_fuse_2920"
@@ -1512,77 +1548,41 @@ DEVICE "DEV_02_dyn_pcblib:C0805mix0603"
 PART "c0805_35v10u"
 PACKAGE "02_dyn_pcblib:C0805mix0603"
 
-DEVICE "DEV_02_dyn_pcblib:C0603_1"
-PART "R0603_DNP"
-PACKAGE "02_dyn_pcblib:C0603"
-
-DEVICE "DEV_02_dyn_pcblib:hdr_2x1_1-1123723-2_0"
-PART "hdr_2x1_1-1123723-2"
-PACKAGE "02_dyn_pcblib:hdr_2x1_1-1123723-2"
-
 DEVICE "DEV_02_dyn_pcblib:C0603_4"
 PART "R0603_100k"
 PACKAGE "02_dyn_pcblib:C0603"
-
-DEVICE "DEV_02_dyn_pcblib:C0603_0"
-PART "c0603_50v0.1u"
-PACKAGE "02_dyn_pcblib:C0603"
-
-DEVICE "DEV_02_dyn_pcblib:C0603_3"
-PART "c0603_100v10n"
-PACKAGE "02_dyn_pcblib:C0603"
-
-DEVICE "DEV_02_dyn_pcblib:C0805mix0603_1"
-PART "c0805_DNP"
-PACKAGE "02_dyn_pcblib:C0805mix0603"
-
-DEVICE "DEV_02_dyn_pcblib:R0805mix0603"
-PART "R0805_0.0"
-PACKAGE "02_dyn_pcblib:R0805mix0603"
-
-DEVICE "DEV_02_dyn_pcblib:R1206mix0603_0"
-PART "R1206_0.0"
-PACKAGE "02_dyn_pcblib:R1206mix0603"
 
 DEVICE "DEV_02_dyn_pcblib:nucleco_power_board_v101"
 PART "nucleco_power_board_v101"
 PACKAGE "02_dyn_pcblib:nucleco_power_board_v101"
 
-DEVICE "DEV_02_dyn_pcblib:C0603_2"
-PART "R0603_100k"
-PACKAGE "02_dyn_pcblib:C0603"
-
-DEVICE "DEV_02_dyn_pcblib:C0805mix0603_0"
-PART "c0805_35v10u"
+DEVICE "DEV_02_dyn_pcblib:C0805mix0603_1"
+PART "c0805_DNP"
 PACKAGE "02_dyn_pcblib:C0805mix0603"
 
-DEVICE "DEV_02_dyn_pcblib:L7.1x6.6mm"
-PART "L3.3uH_7.4x6.6mm_30mhO_9.5A"
-PACKAGE "02_dyn_pcblib:L7.1x6.6mm"
-
-DEVICE "DEV_02_dyn_pcblib:R1206mix0603"
+DEVICE "DEV_02_dyn_pcblib:R1206mix0603_0"
 PART "R1206_0.0"
 PACKAGE "02_dyn_pcblib:R1206mix0603"
 
-DEVICE "DEV_02_dyn_pcblib:LED0603"
-PART "LED0603_red"
-PACKAGE "02_dyn_pcblib:LED0603"
+DEVICE "DEV_02_dyn_pcblib:C0603_3"
+PART "c0603_100v10n"
+PACKAGE "02_dyn_pcblib:C0603"
 
-DEVICE "DEV_02_dyn_pcblib:hdr_2x1_1-1123723-2"
-PART "hdr_2x1_1-1123723-2"
-PACKAGE "02_dyn_pcblib:hdr_2x1_1-1123723-2"
+DEVICE "DEV_02_dyn_pcblib:R0805mix0603"
+PART "R0805_0.0"
+PACKAGE "02_dyn_pcblib:R0805mix0603"
 
-DEVICE "DEV_02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX_0"
-PART "dcdc_lt8612x"
-PACKAGE "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX"
+DEVICE "DEV_02_dyn_pcblib:C0805mix0603_2"
+PART "c0805_35v10u"
+PACKAGE "02_dyn_pcblib:C0805mix0603"
 
 DEVICE "DEV_02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX"
 PART "dcdc_lt8612x"
 PACKAGE "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX"
 
-DEVICE "DEV_02_dyn_pcblib:C0805mix0603_2"
-PART "c0805_35v10u"
-PACKAGE "02_dyn_pcblib:C0805mix0603"
+DEVICE "DEV_02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX_0"
+PART "dcdc_lt8612x"
+PACKAGE "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX"
 
 DEVICE "DEV_02_dyn_pcblib:d2pak_TO263"
 PART "nmos75v80a_IRFS3607TRLPBF"
