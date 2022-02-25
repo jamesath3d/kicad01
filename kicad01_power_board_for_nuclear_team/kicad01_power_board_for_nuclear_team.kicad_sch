@@ -75,14 +75,14 @@
     )
   )
 
-  (sheet (at 60.96 152.4) (size 57.15 13.97) (fields_autoplaced)
+  (sheet (at 60.96 152.4) (size 57.15 13.97)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid e6fd21c3-a897-4e3d-8035-4214e25b3e90)
-    (property "Sheet name" "008_board_and_testpoint" (id 0) (at 60.96 151.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheet name" "008_board_and_testpoint" (id 0) (at 60.96 160.02 0)
+      (effects (font (size 3 3)) (justify left bottom))
     )
-    (property "Sheet file" "008_board_and_testpoint.kicad_sch" (id 1) (at 60.96 166.9546 0)
+    (property "Sheet file" "008_board_and_testpoint.kicad_sch" (id 1) (at 62.23 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -233,6 +233,9 @@
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/6dc4487e-544d-450c-8769-1c10c304dbb6"
       (reference "C572") (unit 1) (value "c0805_DNP") (footprint "02_dyn_pcblib:C0805mix0603")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/22f1f29b-e33b-4d40-b8be-4bfc3975656b"
+      (reference "C601") (unit 1) (value "c0603_50v1u") (footprint "02_dyn_pcblib:C0603")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/b110606c-b9a3-48ff-a9de-a7bf54e1cd9d"
       (reference "C701") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
@@ -412,7 +415,7 @@
       (reference "R591") (unit 1) (value "R1206_0.0") (footprint "02_dyn_pcblib:R1206mix0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/41d822b0-871d-4a99-8889-52b731e33566"
-      (reference "R603") (unit 1) (value "R0805_0.0") (footprint "02_dyn_pcblib:R0805mix0603")
+      (reference "R603") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/b153615d-e9f3-4f1c-882a-bfb6b06d57a2"
       (reference "R604") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
@@ -429,6 +432,21 @@
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/f65b5f4f-6081-4021-b991-c74c184ee73f"
       (reference "R634") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
     )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/66bffb47-8598-44ad-b5f5-1bbfde5b50a1"
+      (reference "R691") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/9b1ded56-17bf-49e4-af13-3e70e85b6c73"
+      (reference "R692") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/c56dffc6-6e27-4dd7-bd2a-17a7d6be8d7b"
+      (reference "R693") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/67b8fafe-6090-4b33-bd9c-93dd68c6ab69"
+      (reference "R694") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/8cd28132-42ce-4314-95f3-b75e107636eb"
+      (reference "R695") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+    )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/5beb5dee-5cbb-487b-af7b-95fee386f7fa"
       (reference "U301") (unit 1) (value "dcdc_lt8612x") (footprint "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
     )
@@ -437,6 +455,9 @@
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/aecd364f-b6a9-4e06-86eb-fa024a7eed1c"
       (reference "U501") (unit 1) (value "dcdc_lt8612x") (footprint "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/323cdc3e-482b-4d25-81bb-b03b2bbe9741"
+      (reference "U601") (unit 1) (value "mcu_MSP430FR2433IRGER") (footprint "02_dyn_pcblib:QFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mmX")
     )
   )
 )
