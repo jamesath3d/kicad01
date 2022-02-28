@@ -163,301 +163,301 @@
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
     (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/ae5d0f24-2a0b-4597-979d-4c8cf6542eb1"
-      (reference "B801") (unit 1) (value "nucleco_power_board_v101") (footprint "02_dyn_pcblib:nucleco_power_board_v101")
+      (reference "B801") (unit 1) (value "nucleco_power_board_v101") (footprint "2008_h3d:nucleco_power_board_v101")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/e67870a1-24ab-4d3e-bc27-24abebb5ef4f"
-      (reference "C201") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C201") (unit 1) (value "c0805_35v10u") (footprint "2004_cap:C0805mix0603")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/2fa25892-9f70-4a33-be02-2fabd8a41e9f"
-      (reference "C211") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C211") (unit 1) (value "c0805_35v10u") (footprint "2004_cap:C0805mix0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/2e12e34d-77f4-44c0-80e5-39e509f0aa9d"
-      (reference "C321") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C321") (unit 1) (value "c0805_35v10u") (footprint "2004_cap:C0805mix0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/b35336f8-4f67-4a97-82ee-2b6bc77e03b9"
-      (reference "C322") (unit 1) (value "c0603_100v10n") (footprint "02_dyn_pcblib:C0603")
+      (reference "C322") (unit 1) (value "c0603_100v10n") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/eb328028-d960-4de7-8f0c-5ca58c5d46df"
-      (reference "C324") (unit 1) (value "c0603_50v1u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C324") (unit 1) (value "c0603_50v1u") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/493425ad-b804-4107-a0b9-5667e9af7159"
-      (reference "C325") (unit 1) (value "c0603_50v0.1u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C325") (unit 1) (value "c0603_50v0.1u") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/c4d4a973-d420-4cc4-a4bf-03fc6742b8f5"
-      (reference "C365") (unit 1) (value "c0603_100v10n") (footprint "02_dyn_pcblib:C0603")
+      (reference "C365") (unit 1) (value "c0603_100v10n") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/4721249d-0141-4965-8d3d-6a43ae8c5e74"
-      (reference "C371") (unit 1) (value "c0603_10v3.3u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C371") (unit 1) (value "c0603_10v3.3u") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/61b2fc64-9f20-4d1a-a956-f4cd431249c7"
-      (reference "C372") (unit 1) (value "c0805_DNP") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C372") (unit 1) (value "c0805_DNP") (footprint "2004_cap:C0805mix0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/365c46ec-b81a-42a9-8aa4-48c393b682ad"
-      (reference "C421") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C421") (unit 1) (value "c0805_35v10u") (footprint "2004_cap:C0805mix0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/66811b2b-b406-44c9-8db0-f34396c8f563"
-      (reference "C422") (unit 1) (value "c0603_100v10n") (footprint "02_dyn_pcblib:C0603")
+      (reference "C422") (unit 1) (value "c0603_100v10n") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/0312b1e8-91ee-482c-a0c5-522cd2bcc5c9"
-      (reference "C424") (unit 1) (value "c0603_50v1u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C424") (unit 1) (value "c0603_50v1u") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/e3373e52-2d3a-4d13-a750-867613db4019"
-      (reference "C425") (unit 1) (value "c0603_50v0.1u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C425") (unit 1) (value "c0603_50v0.1u") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/bbea0aac-0486-4f5a-8659-a4bf5161ccb7"
-      (reference "C465") (unit 1) (value "c0603_100v10n") (footprint "02_dyn_pcblib:C0603")
+      (reference "C465") (unit 1) (value "c0603_100v10n") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/153754c1-3d65-42fe-ab03-f077f49e4363"
-      (reference "C471") (unit 1) (value "c0603_10v3.3u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C471") (unit 1) (value "c0603_10v3.3u") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/7a0442e8-bab5-4887-886d-cb70a5ac1c50"
-      (reference "C472") (unit 1) (value "c0805_DNP") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C472") (unit 1) (value "c0805_DNP") (footprint "2004_cap:C0805mix0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/40111936-e4da-47d0-89e4-c9c8c66c4755"
-      (reference "C521") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C521") (unit 1) (value "c0805_35v10u") (footprint "2004_cap:C0805mix0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/64ce2c65-e6c8-4975-96a8-e73f87e7049c"
-      (reference "C522") (unit 1) (value "c0603_100v10n") (footprint "02_dyn_pcblib:C0603")
+      (reference "C522") (unit 1) (value "c0603_100v10n") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/5468c564-a411-442e-a9a9-b6cbbb6276ce"
-      (reference "C524") (unit 1) (value "c0603_50v1u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C524") (unit 1) (value "c0603_50v1u") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/acbfe504-ceda-4f70-95ba-0425b39acff8"
-      (reference "C525") (unit 1) (value "c0603_50v0.1u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C525") (unit 1) (value "c0603_50v0.1u") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/4c82182b-307b-4dd1-bfc1-a94f71e0f644"
-      (reference "C565") (unit 1) (value "c0603_100v10n") (footprint "02_dyn_pcblib:C0603")
+      (reference "C565") (unit 1) (value "c0603_100v10n") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/2a52fe0f-1f5e-44ff-926f-f1687692354f"
-      (reference "C571") (unit 1) (value "c0603_10v3.3u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C571") (unit 1) (value "c0603_10v3.3u") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/6dc4487e-544d-450c-8769-1c10c304dbb6"
-      (reference "C572") (unit 1) (value "c0805_DNP") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C572") (unit 1) (value "c0805_DNP") (footprint "2004_cap:C0805mix0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/22f1f29b-e33b-4d40-b8be-4bfc3975656b"
-      (reference "C601") (unit 1) (value "c0603_50v1u") (footprint "02_dyn_pcblib:C0603")
+      (reference "C601") (unit 1) (value "c0603_50v1u") (footprint "2004_cap:C0603")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/b110606c-b9a3-48ff-a9de-a7bf54e1cd9d"
-      (reference "C701") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C701") (unit 1) (value "c0805_35v10u") (footprint "2004_cap:C0805mix0603")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/5ce7bec6-3f5d-4594-ba22-c9392bf564ed"
-      (reference "C711") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C711") (unit 1) (value "c0805_35v10u") (footprint "2004_cap:C0805mix0603")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/a9ff4d63-2815-426f-a0f3-9e0d38a22509"
-      (reference "C721") (unit 1) (value "c0805_35v10u") (footprint "02_dyn_pcblib:C0805mix0603")
+      (reference "C721") (unit 1) (value "c0805_35v10u") (footprint "2004_cap:C0805mix0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/0483b187-ddd0-4168-a12e-b32f44c6ec0a"
-      (reference "D351") (unit 1) (value "LED0603_red") (footprint "02_dyn_pcblib:LED0603")
+      (reference "D351") (unit 1) (value "LED0603_red") (footprint "2007_LED:LED0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/9a5cf478-7978-42dd-b252-997760144bc8"
-      (reference "D451") (unit 1) (value "LED0603_red") (footprint "02_dyn_pcblib:LED0603")
+      (reference "D451") (unit 1) (value "LED0603_red") (footprint "2007_LED:LED0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/c874578b-2490-45cd-80e7-29a2a605ea31"
-      (reference "D551") (unit 1) (value "LED0603_red") (footprint "02_dyn_pcblib:LED0603")
+      (reference "D551") (unit 1) (value "LED0603_red") (footprint "2007_LED:LED0603")
     )
     (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/c177efc1-cf7e-4de9-b3e3-adcc5f48c803"
-      (reference "H1") (unit 1) (value "hole2mm50_7mm40") (footprint "02_dyn_pcblib:hole2mm50_7mm40")
+      (reference "H1") (unit 1) (value "hole2mm50_7mm40") (footprint "2002_hdr:hole2mm50_7mm40")
     )
     (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/6280c33e-f145-4a71-8aca-5f02da699600"
-      (reference "H2") (unit 1) (value "hole2mm50_7mm40") (footprint "02_dyn_pcblib:hole2mm50_7mm40")
+      (reference "H2") (unit 1) (value "hole2mm50_7mm40") (footprint "2002_hdr:hole2mm50_7mm40")
     )
     (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/9647edf6-7756-4aa4-b523-8fb7d068ce6c"
-      (reference "H3") (unit 1) (value "hole2mm50_7mm40") (footprint "02_dyn_pcblib:hole2mm50_7mm40")
+      (reference "H3") (unit 1) (value "hole2mm50_7mm40") (footprint "2002_hdr:hole2mm50_7mm40")
     )
     (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/d88eb2f4-5cd8-4879-9bfd-7bbc41ee4d22"
-      (reference "H4") (unit 1) (value "hole2mm50_7mm40") (footprint "02_dyn_pcblib:hole2mm50_7mm40")
+      (reference "H4") (unit 1) (value "hole2mm50_7mm40") (footprint "2002_hdr:hole2mm50_7mm40")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/81113288-48cc-4c3e-bcd7-bb9c0e788e09"
-      (reference "H201") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+      (reference "H201") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "2002_hdr:hdr_2x1_1-1123723-2")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/48d75954-db6a-4a63-b719-8d93261afde0"
-      (reference "H211") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+      (reference "H211") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "2002_hdr:hdr_2x1_1-1123723-2")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/5494557b-12cd-42ac-9376-f848681d29c6"
-      (reference "H701") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+      (reference "H701") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "2002_hdr:hdr_2x1_1-1123723-2")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/3cc7970e-8072-4d39-9c35-6f40cbca673b"
-      (reference "H711") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+      (reference "H711") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "2002_hdr:hdr_2x1_1-1123723-2")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/64f168e6-c671-408e-8d84-82a077e30921"
-      (reference "H721") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "02_dyn_pcblib:hdr_2x1_1-1123723-2")
+      (reference "H721") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "2002_hdr:hdr_2x1_1-1123723-2")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/8a103c71-1460-46f2-9d57-40d9082d7bb7"
-      (reference "L371") (unit 1) (value "L3.3uH_7.4x6.6mm_30mhO_9.5A") (footprint "02_dyn_pcblib:L7.1x6.6mm")
+      (reference "L371") (unit 1) (value "L3.3uH_7.4x6.6mm_30mhO_9.5A") (footprint "2005_inductance:L7.1x6.6mm")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/c7359c5f-c8eb-4f60-9cbd-c185ecaca9cf"
-      (reference "L471") (unit 1) (value "L3.3uH_7.4x6.6mm_30mhO_9.5A") (footprint "02_dyn_pcblib:L7.1x6.6mm")
+      (reference "L471") (unit 1) (value "L3.3uH_7.4x6.6mm_30mhO_9.5A") (footprint "2005_inductance:L7.1x6.6mm")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/78c46949-b95e-4193-ba84-cfef37593d7b"
-      (reference "L571") (unit 1) (value "L3.3uH_7.4x6.6mm_30mhO_9.5A") (footprint "02_dyn_pcblib:L7.1x6.6mm")
+      (reference "L571") (unit 1) (value "L3.3uH_7.4x6.6mm_30mhO_9.5A") (footprint "2005_inductance:L7.1x6.6mm")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/9f81b282-4ca4-4f68-9485-900324b9a462"
-      (reference "PTC201") (unit 1) (value "PTC_fuse_7A") (footprint "02_dyn_pcblib:ptc_fuse_2920")
+      (reference "PTC201") (unit 1) (value "PTC_fuse_7A") (footprint "2003_res:ptc_fuse_2920")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/842eee71-b71d-494f-9e99-cb7f7a45087d"
-      (reference "Q251") (unit 1) (value "nmosTO263_75v80A") (footprint "02_dyn_pcblib:d2pak_TO263")
+      (reference "Q251") (unit 1) (value "nmosTO263_75v80A") (footprint "2001_dyn_pcblib:d2pak_TO263")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/1900477b-53f2-4cca-acff-2cb2c4a5d9cf"
-      (reference "R211") (unit 1) (value "R1206_0.0") (footprint "02_dyn_pcblib:R1206mix0603")
+      (reference "R211") (unit 1) (value "R1206_0.0") (footprint "2003_res:R1206mix0603")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/214744e6-b7fa-4720-90f8-e72f6c007777"
-      (reference "R221") (unit 1) (value "R0603_1M") (footprint "02_dyn_pcblib:C0603")
+      (reference "R221") (unit 1) (value "R0603_1M") (footprint "2004_cap:C0603")
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/24b9fb9c-4615-4881-b6c6-9a2668c09472"
-      (reference "R222") (unit 1) (value "R0603_1M") (footprint "02_dyn_pcblib:C0603")
+      (reference "R222") (unit 1) (value "R0603_1M") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/96f70206-3f5d-481e-8cd5-cc7afeb026bf"
-      (reference "R311") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R311") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/42bd79e5-6538-466e-af20-b044e1130f7a"
-      (reference "R312") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R312") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/1f6ec05a-2083-4a34-b27d-3e0d5a6d1640"
-      (reference "R313") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R313") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/2a7de781-76b0-43a8-8e72-efd30b1a0a82"
-      (reference "R323") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R323") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/7c161816-a390-4bd4-b8d9-b667f18cd0c9"
-      (reference "R331") (unit 1) (value "R0603_49.9k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R331") (unit 1) (value "R0603_49.9k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/12f3d1fd-0905-4b12-9c21-047b0ae87e50"
-      (reference "R332") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R332") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/67fca14c-9f60-41f8-9215-da8466438868"
-      (reference "R351") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R351") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/b57e5cd7-9c42-4f41-be52-98d4927f2bab"
-      (reference "R352") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R352") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/b1a5a15c-568d-4609-9241-872d074a0985"
-      (reference "R361") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R361") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/24ab2dd5-a1da-440c-bea9-4698de29b495"
-      (reference "R362") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R362") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/0a168e4b-0521-4f33-9d56-36ffabcc356d"
-      (reference "R365") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R365") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/29c3bc2d-6589-4db2-b76c-b9c0af5ca786"
-      (reference "R391") (unit 1) (value "R1206_0.0") (footprint "02_dyn_pcblib:R1206mix0603")
+      (reference "R391") (unit 1) (value "R1206_0.0") (footprint "2003_res:R1206mix0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/6163b631-b159-47b8-b51e-80be2eb24c7b"
-      (reference "R411") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R411") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/214e9639-d089-4815-8b36-f2bdde9347b1"
-      (reference "R412") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R412") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/bacbc1d4-d4e3-4aed-be31-f3555d458b1c"
-      (reference "R413") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R413") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/4444d97b-1612-4221-80eb-5b8d23d81bfd"
-      (reference "R423") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R423") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/593d5ed9-a76b-4a92-bf25-23e1fee07add"
-      (reference "R431") (unit 1) (value "R0603_49.9k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R431") (unit 1) (value "R0603_49.9k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/5162bca9-c348-4ff8-97b2-8bf9d3b18cf9"
-      (reference "R432") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R432") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/1fa48ee8-c347-4563-983f-4a5214ce9aac"
-      (reference "R451") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R451") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/c5907ed1-57b5-4c9b-8054-2b393099caa8"
-      (reference "R452") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R452") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/872719f4-ab1b-4f02-b22a-9a9a16e35cba"
-      (reference "R461") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R461") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/8ae6dbfd-974c-48ae-a347-f349ac2d34f9"
-      (reference "R462") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R462") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/c8ae04af-3029-486b-a5e4-244b3d89a6f5"
-      (reference "R465") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R465") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/41f0bffc-0826-4d7f-a054-09fd403c6555"
-      (reference "R491") (unit 1) (value "R1206_0.0") (footprint "02_dyn_pcblib:R1206mix0603")
+      (reference "R491") (unit 1) (value "R1206_0.0") (footprint "2003_res:R1206mix0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/684700b6-8ebb-4df7-a22c-028ced3a9c61"
-      (reference "R511") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R511") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/248c8bff-7283-4ab3-9b78-32f07e9ad4f3"
-      (reference "R512") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R512") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/28af02f9-388d-4564-a14a-02d710f050a4"
-      (reference "R513") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R513") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/79a54b11-0463-4b83-b118-118d8589a3f3"
-      (reference "R523") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R523") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/97b35fac-fc67-4f2e-93a1-1d6ee849ac3a"
-      (reference "R531") (unit 1) (value "R0603_49.9k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R531") (unit 1) (value "R0603_49.9k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/77716413-84e1-4c33-8909-9a15aa36f0db"
-      (reference "R532") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R532") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/51f6a0ce-837b-48a3-98e8-4c6629ced789"
-      (reference "R551") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R551") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/36cccf86-a380-44e8-bd39-3238848f8d8f"
-      (reference "R552") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R552") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/8d0fb3fd-64ec-459b-a940-e616c5ab09fa"
-      (reference "R561") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R561") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/e7dca7cc-eeda-4f60-a64d-d510e538630e"
-      (reference "R562") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R562") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/20c8189e-4230-4700-95ce-ad0d3ed5c269"
-      (reference "R565") (unit 1) (value "R0603_100k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R565") (unit 1) (value "R0603_100k") (footprint "2004_cap:C0603")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/1ac364d7-8593-443a-a177-b568d0015526"
-      (reference "R591") (unit 1) (value "R1206_0.0") (footprint "02_dyn_pcblib:R1206mix0603")
+      (reference "R591") (unit 1) (value "R1206_0.0") (footprint "2003_res:R1206mix0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/41d822b0-871d-4a99-8889-52b731e33566"
-      (reference "R603") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R603") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/b153615d-e9f3-4f1c-882a-bfb6b06d57a2"
-      (reference "R604") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R604") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/9686fcd7-3f46-4033-ba0d-9058eba5f34f"
-      (reference "R623") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R623") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/45ec2b51-7b65-40a6-a0ae-205c9df0f27d"
-      (reference "R624") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R624") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/e60fb093-de16-4080-9527-b47f46db04aa"
-      (reference "R633") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R633") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/f65b5f4f-6081-4021-b991-c74c184ee73f"
-      (reference "R634") (unit 1) (value "R0603_10k") (footprint "02_dyn_pcblib:C0603")
+      (reference "R634") (unit 1) (value "R0603_10k") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/66bffb47-8598-44ad-b5f5-1bbfde5b50a1"
-      (reference "R691") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R691") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/9b1ded56-17bf-49e4-af13-3e70e85b6c73"
-      (reference "R692") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R692") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/c56dffc6-6e27-4dd7-bd2a-17a7d6be8d7b"
-      (reference "R693") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R693") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/67b8fafe-6090-4b33-bd9c-93dd68c6ab69"
-      (reference "R694") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R694") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/8cd28132-42ce-4314-95f3-b75e107636eb"
-      (reference "R695") (unit 1) (value "R0603_DNP") (footprint "02_dyn_pcblib:C0603")
+      (reference "R695") (unit 1) (value "R0603_DNP") (footprint "2004_cap:C0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/5beb5dee-5cbb-487b-af7b-95fee386f7fa"
-      (reference "U301") (unit 1) (value "dcdc_lt8612x") (footprint "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
+      (reference "U301") (unit 1) (value "dcdc_lt8612x") (footprint "2006_qfn:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
     )
     (path "/cc06530a-7d6a-45c8-ae0c-0687e2d51c91/64e866cf-d647-4f95-9987-631bb92ebbab"
-      (reference "U401") (unit 1) (value "dcdc_lt8612x") (footprint "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
+      (reference "U401") (unit 1) (value "dcdc_lt8612x") (footprint "2006_qfn:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
     )
     (path "/323b89bf-f510-4fd8-8813-5eafcc0716f2/aecd364f-b6a9-4e06-86eb-fa024a7eed1c"
-      (reference "U501") (unit 1) (value "dcdc_lt8612x") (footprint "02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
+      (reference "U501") (unit 1) (value "dcdc_lt8612x") (footprint "2006_qfn:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/323cdc3e-482b-4d25-81bb-b03b2bbe9741"
-      (reference "U601") (unit 1) (value "mcu_MSP430FR2433IRGER") (footprint "02_dyn_pcblib:QFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mmX")
+      (reference "U601") (unit 1) (value "mcu_MSP430FR2433IRGER") (footprint "2006_qfn:QFN-24-1EP_4x4mm_P0.5mm_EP2.8x2.8mmX")
     )
   )
 )

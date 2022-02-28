@@ -80,7 +80,7 @@
   <components>
     <comp ref="C1">
       <value>c0805_35v10u</value>
-      <footprint>02_dyn_pcblib:C0805mix0603</footprint>
+      <footprint>2004_cap:C0805mix0603</footprint>
       <fields>
         <field name="PartNum">C2012X5R1V106M085AC</field>
       </fields>
@@ -162,7 +162,7 @@
     </comp>
     <comp ref="D1">
       <value>LED0603_red</value>
-      <footprint>02_dyn_pcblib:LED0603</footprint>
+      <footprint>2007_LED:LED0603</footprint>
       <fields>
         <field name="PartDesc">Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
         <field name="PartNum">LTST-C190KRKT</field>
@@ -177,7 +177,7 @@
     </comp>
     <comp ref="L1">
       <value>L3.3uH_7.4x6.6mm_30mhO_9.5A</value>
-      <footprint>02_dyn_pcblib:L7.1x6.6mm</footprint>
+      <footprint>2005_inductance:L7.1x6.6mm</footprint>
       <fields>
         <field name="PartDesc">3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard</field>
         <field name="PartNum">ECS-MPIL0630-3R3MC</field>
@@ -311,7 +311,7 @@
     </comp>
     <comp ref="R10">
       <value>R1206_0.0</value>
-      <footprint>02_dyn_pcblib:R1206mix0603</footprint>
+      <footprint>2003_res:R1206mix0603</footprint>
       <fields>
         <field name="PartDesc">0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film</field>
         <field name="PartNum">RC1206FR-070RL</field>
@@ -352,7 +352,7 @@
     </comp>
     <comp ref="U1">
       <value>dcdc_lt8612x</value>
-      <footprint>02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</footprint>
+      <footprint>2006_qfn:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</footprint>
       <fields>
         <field name="Mfg">Analog Devices Inc.</field>
         <field name="MfgNum">LT8612EUDE#PBF</field>
@@ -373,7 +373,7 @@
     </comp>
     <comp ref="C7">
       <value>c0805_35v10u</value>
-      <footprint>02_dyn_pcblib:C0805mix0603</footprint>
+      <footprint>2004_cap:C0805mix0603</footprint>
       <fields>
         <field name="PartNum">C2012X5R1V106M085AC</field>
       </fields>
@@ -455,7 +455,7 @@
     </comp>
     <comp ref="D2">
       <value>LED0603_red</value>
-      <footprint>02_dyn_pcblib:LED0603</footprint>
+      <footprint>2007_LED:LED0603</footprint>
       <fields>
         <field name="PartDesc">Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
         <field name="PartNum">LTST-C190KRKT</field>
@@ -470,7 +470,7 @@
     </comp>
     <comp ref="L2">
       <value>L3.3uH_7.4x6.6mm_30mhO_9.5A</value>
-      <footprint>02_dyn_pcblib:L7.1x6.6mm</footprint>
+      <footprint>2005_inductance:L7.1x6.6mm</footprint>
       <fields>
         <field name="PartDesc">3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard</field>
         <field name="PartNum">ECS-MPIL0630-3R3MC</field>
@@ -604,7 +604,7 @@
     </comp>
     <comp ref="R22">
       <value>R1206_0.0</value>
-      <footprint>02_dyn_pcblib:R1206mix0603</footprint>
+      <footprint>2003_res:R1206mix0603</footprint>
       <fields>
         <field name="PartDesc">0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film</field>
         <field name="PartNum">RC1206FR-070RL</field>
@@ -645,7 +645,7 @@
     </comp>
     <comp ref="U2">
       <value>dcdc_lt8612x</value>
-      <footprint>02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</footprint>
+      <footprint>2006_qfn:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</footprint>
       <fields>
         <field name="Mfg">Analog Devices Inc.</field>
         <field name="MfgNum">LT8612EUDE#PBF</field>
@@ -678,7 +678,7 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L3.3uH_7.4x6.6mm_30mhO_9.5A</field>
-        <field name="Footprint">02_dyn_pcblib:L7.1x6.6mm</field>
+        <field name="Footprint">2005_inductance:L7.1x6.6mm</field>
         <field name="Datasheet">~</field>
         <field name="PartNum">ECS-MPIL0630-3R3MC</field>
         <field name="PartDesc">3.3 µH Shielded Molded Inductor 9.5 A 22mOhm Max Nonstandard</field>
@@ -699,7 +699,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">LED0603_red</field>
-        <field name="Footprint">02_dyn_pcblib:LED0603</field>
+        <field name="Footprint">2007_LED:LED0603</field>
         <field name="Datasheet">~</field>
         <field name="PartNum">LTST-C190KRKT</field>
         <field name="PartDesc">Red 631nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
@@ -791,7 +791,7 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R1206_0.0</field>
-        <field name="Footprint">02_dyn_pcblib:R1206mix0603</field>
+        <field name="Footprint">2003_res:R1206mix0603</field>
         <field name="Datasheet">~</field>
         <field name="PartNum">RC1206FR-070RL</field>
         <field name="PartDesc">0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film</field>
@@ -868,7 +868,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">c0805_35v10u</field>
-        <field name="Footprint">02_dyn_pcblib:C0805mix0603</field>
+        <field name="Footprint">2004_cap:C0805mix0603</field>
         <field name="Datasheet">~</field>
         <field name="PartNum">C2012X5R1V106M085AC</field>
       </fields>
@@ -881,7 +881,7 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">dcdc_lt8612x</field>
-        <field name="Footprint">02_dyn_pcblib:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</field>
+        <field name="Footprint">2006_qfn:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX</field>
         <field name="source">digikey</field>
         <field name="PartNum">505-LT8612EUDE#PBF-ND</field>
         <field name="PartDesc">IC REG BUCK ADJUSTABLE 6A 28QFN</field>

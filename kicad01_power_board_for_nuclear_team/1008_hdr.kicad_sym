@@ -6,7 +6,7 @@
     (property "Value" "hdr_2x1_1-1123723-2" (id 1) (at 0.127 -1.905 0)
       (effects (font (size 0.4 0.4)))
     )
-    (property "Footprint" "02_dyn_pcblib:hdr_2x1_1-1123723-2" (id 2) (at 0 11.43 0)
+    (property "Footprint" "2002_hdr:hdr_2x1_1-1123723-2" (id 2) (at 0 11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 0 0 90)
