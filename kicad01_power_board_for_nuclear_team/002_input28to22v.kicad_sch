@@ -608,11 +608,11 @@
       )
       (symbol "hdr_2x1_1-1123723-2_1_1"
         (pin passive line (at -6.35 0 0) (length 5.08)
-          (name "~" (effects (font (size 1.27 1.27))))
+          (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 6.35 0 180) (length 5.08)
-          (name "~" (effects (font (size 1.27 1.27))))
+          (name "2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
       )

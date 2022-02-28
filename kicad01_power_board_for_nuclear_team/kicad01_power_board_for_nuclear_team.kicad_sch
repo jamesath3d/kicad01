@@ -162,6 +162,12 @@
     (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/1c544bf1-615c-40e7-a64a-00dc18e5ad13"
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/9ef1ac9d-5ee7-4a82-86c2-8ca638158b7e"
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/ea1ea9f9-b659-411d-b8e1-aebab73abb65"
+      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e6fd21c3-a897-4e3d-8035-4214e25b3e90/ae5d0f24-2a0b-4597-979d-4c8cf6542eb1"
       (reference "B801") (unit 1) (value "nucleco_power_board_v101") (footprint "2008_h3d:nucleco_power_board_v101")
     )
@@ -272,6 +278,9 @@
     )
     (path "/e819a17d-359f-44bf-a7ee-20c9a0f89ba5/48d75954-db6a-4a63-b719-8d93261afde0"
       (reference "H211") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "2002_hdr:hdr_2x1_1-1123723-2")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/4d56a1cf-18c7-4783-b30d-b4b44325ba8a"
+      (reference "H602") (unit 1) (value "p2mm54_1x4") (footprint "2002_hdr:p2mm54_1x4")
     )
     (path "/5b7f9b56-cdaf-4f24-bee3-0e9edb7212eb/5494557b-12cd-42ac-9376-f848681d29c6"
       (reference "H701") (unit 1) (value "hdr_2x1_1-1123723-2") (footprint "2002_hdr:hdr_2x1_1-1123723-2")
@@ -420,6 +429,9 @@
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/b153615d-e9f3-4f1c-882a-bfb6b06d57a2"
       (reference "R604") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
     )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/31a8edca-c3c0-4a74-9d7b-b0a8ddcdeee6"
+      (reference "R611") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
+    )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/9686fcd7-3f46-4033-ba0d-9058eba5f34f"
       (reference "R623") (unit 1) (value "R0603_10k") (footprint "2003_res:R0603")
     )
@@ -432,20 +444,32 @@
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/f65b5f4f-6081-4021-b991-c74c184ee73f"
       (reference "R634") (unit 1) (value "R0603_10k") (footprint "2003_res:R0603")
     )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/c56dffc6-6e27-4dd7-bd2a-17a7d6be8d7b"
+      (reference "R643") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/805e8e60-a0e6-4362-a51c-333981a496d1"
+      (reference "R644") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
+    )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/66bffb47-8598-44ad-b5f5-1bbfde5b50a1"
       (reference "R691") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
     )
     (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/9b1ded56-17bf-49e4-af13-3e70e85b6c73"
       (reference "R692") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
     )
-    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/c56dffc6-6e27-4dd7-bd2a-17a7d6be8d7b"
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/7cc50c12-e305-4caa-8214-b0135b9de990"
       (reference "R693") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
     )
-    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/67b8fafe-6090-4b33-bd9c-93dd68c6ab69"
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/874a6c29-e8b9-4ce2-9888-d9ff6b929853"
       (reference "R694") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
     )
-    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/8cd28132-42ce-4314-95f3-b75e107636eb"
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/492a4200-bdd6-4fc9-b36f-c0c726a9bd1d"
       (reference "R695") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/67b8fafe-6090-4b33-bd9c-93dd68c6ab69"
+      (reference "R696") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
+    )
+    (path "/e59676a0-0464-44b4-a58d-424cf6f32b96/8cd28132-42ce-4314-95f3-b75e107636eb"
+      (reference "R697") (unit 1) (value "R0603_DNP") (footprint "2003_res:R0603")
     )
     (path "/33ebb98f-f4da-4914-93f0-b7e26b266f90/5beb5dee-5cbb-487b-af7b-95fee386f7fa"
       (reference "U301") (unit 1) (value "dcdc_lt8612x") (footprint "2006_qfn:QFN-28-1EP_3x6mm_P0.5mm_EP1.7x4.75mmX")
