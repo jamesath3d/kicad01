@@ -102,7 +102,8 @@ columnset = compfields | partfields     # union
 
 # prepend an initial 'hard coded' list and put the enchillada into list 'columns'
 columns = ['Item', 'Qty', 'Reference(s)', 'Value', 'LibPart', 'Footprint', 'Datasheet'] + sorted(list(columnset))
-columns = ['Idx', 'Qty', 'Ref', 'PartNum', 'LibPart', 'Footprint' ]
+columns = ['Idx', 'Qty', 'Ref', 'PartNum', 'Part', 'libSch', 'libFootprint' ]
+columns = ['libSch', 'libFootprint', 'Qty', 'Idx', 'PartNum', 'Ref', 'Value', ]
 
 # Create a new csv writer object to use as the output formatter
 out = csv.writer( f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL )
@@ -127,18 +128,23 @@ writerow( out, columns )
 
 # Output all the interesting components individually first:
 row = []
+idx01 = 0
 for c in components:
     del row[:]
-    row.append('')                                      # item is blank in individual table
-    row.append('')                                      # Qty is always 1, why print it
-    row.append( c.getRef() )                            # Reference
-    #row.append( c.getPartNum() )                          # Value
-    row.append( c.getField("PartNum") )                          # Value
-    row.append( c.getValue() )                          # Value
+    idx01 += 1
+
     row.append( c.getLibName() + ":" + c.getPartName() ) # LibPart
     #row.append( c.getDescription() )
     row.append( c.getFootprint() )
 #    row.append( c.getDatasheet() )
+    row.append('')                                      # Qty is always 1, why print it
+
+    row.append(idx01)                                      # item is blank in individual table
+    row.append( c.getField("PartNum") )                          # Value
+    row.append( c.getRef() )                            # Reference
+    #row.append( c.getPartNum() )                          # Value
+    row.append( c.getValue() )                          # Value
+
 
     # from column 7 upwards, use the fieldnames to grab the data
 #    for field in columns[7:]:
@@ -162,11 +168,14 @@ writerow( out, columns )                   # reuse same columns
 grouped = net.groupComponents(components)
 
 
+columns = ['libSch', 'libFootprint', 'Qty', 'Idx', 'PartNum', 'Ref', 'Value', ]
 # Output component information organized by group, aka as collated:
-item = 0
+idx02 = 0
+cnt02 = 0
 for group in grouped:
     del row[:]
     refs = ""
+    idx02 += 1
 
     # Add the reference of every component in the group and keep a reference
     # to the component so that the other data can be filled in once per group
@@ -176,23 +185,30 @@ for group in grouped:
         refs += component.getRef()
         c = component
 
-    # Fill in the component groups common data
-    # columns = ['Item', 'Qty', 'Reference(s)', 'Value', 'LibPart', 'Footprint', 'Datasheet'] + sorted(list(columnset))
-    item += 1
-    row.append( item )
-    row.append( len(group) )
-    row.append( refs );
-    #row.append( c.getPartNum() )                          # Value
-    row.append( c.getField("PartNum") )                          # Value
-    #row.append( c.getValue() )
     row.append( c.getLibName() + ":" + c.getPartName() )
     row.append( net.getGroupFootprint(group) )
     #row.append( net.getGroupDatasheet(group) )
+    row.append( len(group) )
+    cnt02 += len(group) 
+
+    # Fill in the component groups common data
+    # columns = ['Item', 'Qty', 'Reference(s)', 'Value', 'LibPart', 'Footprint', 'Datasheet'] + sorted(list(columnset))
+    row.append( idx02 )
+    row.append( c.getField("PartNum") )                          # Value
+    #row.append( c.getPartNum() )                          # Value
+    row.append( refs );
+    row.append( c.getValue() )
 
     # from column 7 upwards, use the fieldnames to grab the data
     #for field in columns[7:]:
     #    row.append( net.getGroupField(group, field) );
 
     writerow( out, row  )
+
+del row[:]
+row.append( cnt02 )
+row.append( cnt02 )
+row.append( cnt02 )
+writerow( out, row  )
 
 f.close()
