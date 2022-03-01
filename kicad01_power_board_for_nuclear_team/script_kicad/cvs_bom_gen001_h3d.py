@@ -1,5 +1,6 @@
 #
 #  /home/dyn/.config/kicad/6.0/eeschema.json
+# "command": "\"/usr/bin/python3\" \"${KIPRJMOD}/script_kicad/cvs_bom_gen001_h3d.py\" \"%I\" \"%O.csv\"",
 # 
 # Example python script to generate a BOM from a KiCad generic netlist
 #
