@@ -22,11 +22,14 @@
 
 from __future__ import print_function
 
-# Import the KiCad python helper module and the csv formatter
-import kicad_netlist_reader
-import kicad_utils
 import csv
 import sys
+sys.path.append('/usr/share/kicad/plugins')
+
+# Import the KiCad python helper module and the csv formatter
+import kicad_netlist_reader
+#import kicad_netlist_reader_h3d
+import kicad_utils
 
 # A helper function to convert a UTF8/Unicode/locale string read in netlist
 # for python2 or python3 (Windows/unix)
@@ -64,6 +67,7 @@ def myEqu(self, other):
 # before loading the netlist, otherwise all components will have the original
 # equivalency operator.
 kicad_netlist_reader.comp.__eq__ = myEqu
+#kicad_netlist_reader_h3d.comp.__eq__ = myEqu
 
 if len(sys.argv) != 3:
     print("Usage ", __file__, "<generic_netlist.xml> <output.csv>", file=sys.stderr)
@@ -73,6 +77,7 @@ if len(sys.argv) != 3:
 # Generate an instance of a generic netlist, and load the netlist tree from
 # the command line option. If the file doesn't exist, execution will stop
 net = kicad_netlist_reader.netlist(sys.argv[1])
+#net = kicad_netlist_reader_h3d.netlist(sys.argv[1])
 
 # Open a file to write to, if the file cannot be opened output to stdout
 # instead
@@ -97,6 +102,7 @@ columnset = compfields | partfields     # union
 
 # prepend an initial 'hard coded' list and put the enchillada into list 'columns'
 columns = ['Item', 'Qty', 'Reference(s)', 'Value', 'LibPart', 'Footprint', 'Datasheet'] + sorted(list(columnset))
+columns = ['Idx', 'Qty', 'Ref', 'PartNum', 'LibPart', 'Footprint' ]
 
 # Create a new csv writer object to use as the output formatter
 out = csv.writer( f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL )
@@ -126,16 +132,17 @@ for c in components:
     row.append('')                                      # item is blank in individual table
     row.append('')                                      # Qty is always 1, why print it
     row.append( c.getRef() )                            # Reference
-    row.append( c.getPartNum() )                          # Value
+    #row.append( c.getPartNum() )                          # Value
+    row.append( c.getField("PartNum") )                          # Value
     row.append( c.getValue() )                          # Value
     row.append( c.getLibName() + ":" + c.getPartName() ) # LibPart
     #row.append( c.getDescription() )
     row.append( c.getFootprint() )
-    row.append( c.getDatasheet() )
+#    row.append( c.getDatasheet() )
 
     # from column 7 upwards, use the fieldnames to grab the data
-    for field in columns[7:]:
-        row.append( c.getField( field ) );
+#    for field in columns[7:]:
+#        row.append( c.getField( field ) );
 
     writerow( out, row )
 
@@ -175,15 +182,16 @@ for group in grouped:
     row.append( item )
     row.append( len(group) )
     row.append( refs );
-    row.append( c.getPartNum() )                          # Value
-    row.append( c.getValue() )
+    #row.append( c.getPartNum() )                          # Value
+    row.append( c.getField("PartNum") )                          # Value
+    #row.append( c.getValue() )
     row.append( c.getLibName() + ":" + c.getPartName() )
     row.append( net.getGroupFootprint(group) )
-    row.append( net.getGroupDatasheet(group) )
+    #row.append( net.getGroupDatasheet(group) )
 
     # from column 7 upwards, use the fieldnames to grab the data
-    for field in columns[7:]:
-        row.append( net.getGroupField(group, field) );
+    #for field in columns[7:]:
+    #    row.append( net.getGroupField(group, field) );
 
     writerow( out, row  )
 
