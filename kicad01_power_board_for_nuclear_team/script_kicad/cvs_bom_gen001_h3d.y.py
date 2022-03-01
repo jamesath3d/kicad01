@@ -29,14 +29,14 @@ import os
 path01 = '/usr/share/kicad/plugins/'
 if os.path.isdir(path01) :
     sys.path.append(path01)
-else:
-    print( "error 02" )
+#else:
+#    print( "error 02" )
 
 path02 = 'C:/Program Files/KiCad/6.0/bin/scripting/plugins/'
 if os.path.isdir(path02) :
     sys.path.append(path02)
-else:
-    print( "error 12" )
+#else:
+#    print( "error 12" )
 
 # Import the KiCad python helper module and the csv formatter
 import kicad_netlist_reader

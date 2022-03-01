@@ -9,5 +9,6 @@ output.pdf
 *.wrl
 [0-9].txt
 report.txt
+/kicad01_power_board_for_nuclear_team/_[0-9][0-9]_*
 /kicad01_power_board_for_nuclear_team/kicad01_power_board_for_nuclear_team*.csv
-/kicad01_power_board_for_nuclear_team/_drill/
+/kicad01_power_board_for_nuclear_team/kicad01_power_board_for_nuclear_team*.pdf

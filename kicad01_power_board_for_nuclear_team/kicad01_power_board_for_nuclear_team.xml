@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/kicad01_power_board_for_nuclear_team.kicad_sch</source>
-    <date>Tue 01 Mar 2022 04:04:41 PM EST</date>
-    <tool>Eeschema 6.0.2+dfsg-1~bpo11+1</tool>
+    <source>C:\kicad\kicad01_power_board_for_nuclear_team\kicad01_power_board_for_nuclear_team.kicad_sch</source>
+    <date>3/1/2022 4:02:03 PM</date>
+    <tool>Eeschema (6.0.2)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Necleco Power Board</title>
@@ -2083,28 +2083,28 @@
   </libparts>
   <libraries>
     <library logical="1002_res">
-      <uri>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/1002_res.kicad_sym</uri>
+      <uri>C:\kicad\kicad01_power_board_for_nuclear_team/1002_res.kicad_sym</uri>
     </library>
     <library logical="1003_cap">
-      <uri>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/1003_cap.kicad_sym</uri>
+      <uri>C:\kicad\kicad01_power_board_for_nuclear_team/1003_cap.kicad_sym</uri>
     </library>
     <library logical="1004_led_mos">
-      <uri>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/1004_led_mos.kicad_sym</uri>
+      <uri>C:\kicad\kicad01_power_board_for_nuclear_team/1004_led_mos.kicad_sym</uri>
     </library>
     <library logical="1005_hole">
-      <uri>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/1005_hole.kicad_sym</uri>
+      <uri>C:\kicad\kicad01_power_board_for_nuclear_team/1005_hole.kicad_sym</uri>
     </library>
     <library logical="1006_Inductance">
-      <uri>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/1006_Inductance.kicad_sym</uri>
+      <uri>C:\kicad\kicad01_power_board_for_nuclear_team/1006_Inductance.kicad_sym</uri>
     </library>
     <library logical="1007_board">
-      <uri>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/1007_board.kicad_sym</uri>
+      <uri>C:\kicad\kicad01_power_board_for_nuclear_team/1007_board.kicad_sym</uri>
     </library>
     <library logical="1008_hdr">
-      <uri>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/1008_hdr.kicad_sym</uri>
+      <uri>C:\kicad\kicad01_power_board_for_nuclear_team/1008_hdr.kicad_sym</uri>
     </library>
     <library logical="1009_ic">
-      <uri>/home/kicad/kicad01/kicad01_power_board_for_nuclear_team/1009_ic.kicad_sym</uri>
+      <uri>C:\kicad\kicad01_power_board_for_nuclear_team/1009_ic.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
