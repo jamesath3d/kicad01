@@ -123,6 +123,7 @@ for c in components:
     row.append('')                                      # item is blank in individual table
     row.append('')                                      # Qty is always 1, why print it
     row.append( c.getRef() )                            # Reference
+    row.append( c.getPartNum() )                          # Value
     row.append( c.getValue() )                          # Value
     row.append( c.getLibName() + ":" + c.getPartName() ) # LibPart
     #row.append( c.getDescription() )
@@ -171,6 +172,7 @@ for group in grouped:
     row.append( item )
     row.append( len(group) )
     row.append( refs );
+    row.append( c.getPartNum() )                          # Value
     row.append( c.getValue() )
     row.append( c.getLibName() + ":" + c.getPartName() )
     row.append( net.getGroupFootprint(group) )
