@@ -1,4 +1,6 @@
 #
+#  /home/dyn/.config/kicad/6.0/eeschema.json
+# 
 # Example python script to generate a BOM from a KiCad generic netlist
 #
 # Example: Sorted and Grouped CSV BOM
