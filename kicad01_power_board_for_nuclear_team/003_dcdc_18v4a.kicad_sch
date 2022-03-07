@@ -755,7 +755,7 @@
         )
       )
     )
-    (symbol "1004_led_mos:LED0603_red" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "1004_led_mos:LED0603_red" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at -1.27 3.175 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -782,6 +782,14 @@
       )
       (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (id 8) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED0603_red_0_0"
+        (text "A" (at 1.524 -0.635 0)
+          (effects (font (size 0.6 0.6)))
+        )
+        (text "K" (at -1.651 -0.508 0)
+          (effects (font (size 0.6 0.6)))
+        )
       )
       (symbol "LED0603_red_0_1"
         (polyline

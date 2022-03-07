@@ -311,7 +311,7 @@
         )
       )
     )
-    (symbol "1004_led_mos:nmosTO263_75v80A" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "1004_led_mos:nmosTO263_75v80A" (in_bom yes) (on_board yes)
       (property "Reference" "Q" (id 0) (at 5.08 6.35 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
